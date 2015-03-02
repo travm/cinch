@@ -1,0 +1,167 @@
+/**********/
+/* GLOBAL */
+/**********/
+
+/********************/
+/* GLOBAL VARIABLES */
+/********************/
+
+/* Myth Variables */
+:root {
+    /* Color Palette */
+    --pri-col: #333333;
+    --sec-col: #FF8447;
+    --ter-col: #4274C9;
+    
+    /* Colors (http://clrs.cc) */
+    --clrs-navy: #001f3f;
+    --clrs-blue: #0074D9;
+    --clrs-aqua: #7FDBFF;
+    --clrs-teal: #39CCCC;
+    --clrs-olive: #3D9970;
+    --clrs-green: #001f3f;
+    --clrs-lime: #01FF70;
+    --clrs-yellow: #FFDC00;
+    --clrs-orange: #FF851B;
+    --clrs-red: #FF4136;
+    --clrs-maroon: #85144b;
+    --clrs-fuschia: #F012BE;
+    --clrs-purple: #B10DC9;
+    --clrs-black: #111111;
+    --clrs-gray: #AAAAAA;
+    --clrs-silver: #DDDDDD;
+    --clrs-white: #FFFFFF;
+
+    /* Text Shadow */
+    --text-shadow: 1px 1px 0px rgba(0,0,0,.25);
+
+    /* Transparent BGs */
+    --trans-black: rgba(0,0,0,0.75);
+    --trans-white: rgba(255,255,255,0.90);
+}
+
+
+/********/
+/* BASE */
+/********/
+
+    body {color:#555; line-height:1.5; font:300 16px "Open Sans", Sans-serif;}
+
+    /* Text & Links */
+    a {color:#0079c1;}
+    ::selection {background:#0099F4; color: #FFF;}
+    ::-moz-selection {background:#0099F4; color: #FFF;}
+    p {line-height:1.5;}
+    
+    /* Lists */
+    ul, ol {margin:0; padding:0;}
+    li {margin-left:2rem;}
+
+    /* Tables */
+    table {font-size:.75em; width:100%; margin:2em 0; border:1px solid #eee;}
+    table tr {border-top:1px solid #eee;}
+    table tr:first-child {border:none;}
+    table th {padding:.5em; background:#eee;}
+    table td {padding:.5em; text-align:center; border-right:1px solid #eee;}
+    table td:last-child {border:none;}
+
+    /* Misc */
+    hr {height:0; margin:1em 0; border:none; border-bottom:1px solid rgba(0,0,0,0.5);}
+
+    /* Input Placeholders */
+    ::-webkit-input-placeholder {color:rgba(255,255,255, 0.75);}
+    :-moz-placeholder {color:rgba(255,255,255, 0.75);} /* Firefox 18- */ 
+    ::-moz-placeholder {color:rgba(255,255,255, 0.75);} /* Firefox 19+ */ 
+    :-ms-input-placeholder {color:rgba(255,255,255, 0.75);}
+
+
+/**********/
+/* LAYOUT */
+/**********/
+
+    /* Header */
+    #header {}
+    #header-content {}
+
+    /* Core */
+    #core {}
+    #core-content {}
+
+    /* Footer */
+    #footer {}
+    #footer-content {}
+
+
+/***********/
+/* MODULES */
+/***********/
+
+    /* Breadcrumb */
+    .breadcrumb {}
+
+    /* Hero */
+    .hero {}
+    .hero-content {}
+
+    /* Buttons */
+    .btn {}
+
+/*************/
+/* MODIFIERS */
+/*************/
+
+    .is-hidden {display:none !important;}
+    .is-visible {display:block !important;}
+    .is-collapsed {max-height:0; transition: all ease 0.5s;}
+    .is-expanded {max-height:1000px; transition: all ease 0.5s;}
+    .is-transparent {
+        opacity:0;
+        -webkit-transition: opacity ease 0.5s;
+        -moz-transition: opacity ease 0.5s;
+        -ms-transition: opacity ease 0.5s;
+        -o-transition: opacity ease 0.5s;
+        transition: opacity ease 0.5s;
+    }
+    .is-opaque {
+        opacity:1;
+        -webkit-transition: opacity ease 0.5s;
+        -moz-transition: opacity ease 0.5s;
+        -ms-transition: opacity ease 0.5s;
+        -o-transition: opacity ease 0.5s;
+        transition: opacity ease 0.5s;
+    }
+    .is-last {margin:0;}
+    
+
+/*****************/
+/* MEDIA QUERIES */
+/*****************/
+
+@media screen and (min-width:600px) {
+    
+    /********/
+    /* BASE */
+    /********/ 
+
+
+    /**********/
+    /* LAYOUT */
+    /**********/
+
+
+    /***********/
+    /* MODULES */
+    /***********/
+
+
+    /*************/
+    /* MODIFIERS */
+    /*************/
+
+
+    /*****************/
+    /* MEDIA QUERIES */
+    /*****************/
+
+
+}
