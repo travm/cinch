@@ -45,7 +45,7 @@
 /* BASE */
 /********/
 
-    body {color:#555; line-height:1.5; font:300 16px "Open Sans", Sans-serif;}
+    body {color:var(--clrs-black); line-height:1.5; font:300 16px "Open Sans", Sans-serif;}
 
     /* Text & Links */
     a {color:#0079c1;}
@@ -104,7 +104,8 @@
     .hero-content {}
 
     /* Buttons */
-    .btn {}
+    .btn {padding:1em; background:none; border:2px solid var(--clrs-gray); border-radius:4px;}
+    .btn:hover {background:var(--clrs-gray);}
 
 /*************/
 /* MODIFIERS */
