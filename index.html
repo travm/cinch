@@ -9,8 +9,15 @@
         <meta name="keywords" content="" />
         <meta name="robots" content="index, follow" />
         <link rel="shortcut icon" href="">
-        <link rel="stylesheet" href="cinch.css" />
-        
+        <link href='http://fonts.googleapis.com/css?family=Pacifico|Karla:400,700' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="cinch.min.css" />
+
+        <style>
+            body {font-family:"Karla", sans-serif;}
+            
+            #logo {}
+        </style>
+
         <!-- HTML5 Element Fix -->
         <!--[if lt IE 9]>
             <script>
@@ -31,9 +38,68 @@
 
     <body>
 
-        <h1>Cinch</h1>
+    <header id="header">
+        <div class="measure">
+            <h1 id="logo">Cinch</h1>
+            <p>Simple, pure, efficient.</p>
+        </div>
+    </header>
+    <main role="main">
+        <div id="core" class="measure">
+            <h3>Breadcrumbs</h3>
+            <ul class="breadcrumbs">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Ghostbusters</a></li>
+                <li><a href="#">Ghostbusters II</a></li>
+                <li><a href="#">Ghostbusters III?</a></li>
+            </ul>
 
-        <button class="btn">Hello World</button>
+            <h3>Buttons</h3>
+            <button class="btn-ghost">Ghost Button</button>
+            <button class="btn-round">Rounded Button</button>
+
+            <h3>Tables</h3>
+            <div class="table">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>First Name</th>
+                            <th>Last Name</th>
+                            <th>Location</th>
+                            <th>Occupation</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Egon</td>
+                            <td>Spengler</td>
+                            <td>New York, NY</td>
+                            <td>Paranormal Investigator</td>
+                        </tr>
+                        <tr>
+                            <td>Peter</td>
+                            <td>Venkman</td>
+                            <td>New York, NY</td>
+                            <td>Paranormal Investigator</td>
+                        </tr>
+                        <tr>
+                            <td>Raymond</td>
+                            <td>Stantz</td>
+                            <td>New York, NY</td>
+                            <td>Paranormal Investigator</td>
+                        </tr>
+                        <tr>
+                            <td>Winston</td>
+                            <td>Zeddemore</td>
+                            <td>New York, NY</td>
+                            <td>Paranormal Investigator</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+        </div>
+    </main>
 
     </body>
 
