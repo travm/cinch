@@ -84,9 +84,6 @@
 /**********/
 /* LAYOUT */
 /**********/
-    
-    /* Logo */
-    #logo {font-family:"Pacifico", script; font-weight:300; margin:0;}
 
     /* Header */
     #header {color:var(--clrs-white); padding:4em 0; background:var(--clr-pri);}
@@ -97,7 +94,7 @@
     #core-content {}
 
     /* Footer */
-    #footer {}
+    #footer {margin:4em 0 0 0; padding:2em 0; background:var(--clr-pri);}
     #footer-content {}
 
 
@@ -165,6 +162,9 @@
     /* Hero */
     .hero {}
     .hero-content {}
+
+    /* Logo */
+    .logo {font-family:"azo-sans-uber", sans-serif; font-weight:300; margin:0;}
 
     /* Measure */
     .measure {width:80%; max-width:800px; margin:0 auto;}
