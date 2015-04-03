@@ -5,13 +5,5 @@
 
 	"server": {
 		"port": 9009
-	},
-
-	"bundles": {
-		"/css/site.css": [
-			"/css/normalize.css",
-			"/css/cinch.lib.css",
-			"/css/main.css"
-		]
 	}
 }
