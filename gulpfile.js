@@ -24,6 +24,11 @@ gulp.task('site', function () {
         .pipe(gulp.dest('site/templates/css'));
 });
 
+gulp.task('deploy', function () {
+    gulp.src('site/output')
+        .pipe(ghPages());
+});
+
 gulp.task('clean', function () {
     del('dist/*');
     del('site/templates/css/*');
