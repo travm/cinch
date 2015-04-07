@@ -1,77 +1,5 @@
-<!doctype html>
-<html lang="en">
-
-    <head>
-        <title>Cinch</title>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-        <meta name="description" content="" />
-        <meta name="keywords" content="" />
-        <meta name="robots" content="index, follow" />
-        <link rel="shortcut icon" href="">
-        <link rel="stylesheet" href="css/site.css" />
-
-        <!-- TypeKit -->
-        <script src="//use.typekit.net/xos4uyv.js"></script>
-        <script>try{Typekit.load();}catch(e){}</script>
-
-        <!-- HTML5 Element Fix -->
-        <!--[if lt IE 9]>
-            <script>
-                document.createElement('header');
-                document.createElement('nav');
-                document.createElement('section');
-                document.createElement('article');
-                document.createElement('aside');
-                document.createElement('footer');
-            </script>
-        <![endif]-->
-
-        <!-- IE7 Font Awesome Fix -->
-        <!--[if IE 7]>
-            <link rel="stylesheet" href="" />
-        <![endif]-->
-    </head>
-
-    <body>
-
-    <header id="header">
-        <div class="measure">
-            <h1 class="logo">Cinch</h1>
-            <p>Simple, pure, efficient.</p>
-        </div>
-    </header>
-
-		<main id="core" class="measure" role="main">
-			<h2 id="why-cinch-">Why Cinch?</h2>
-<p>Cinch is a CSS library that aims to be a more pure and efficient development experience. We believe that adding a large, heavy CSS library on top of your project&#39;s CSS is no way to treat your application. In fact, we&#39;re strongly against it.</p>
-<p>Instead of primarily acting as a library, Cinch can also be used as a starting point for your stylesheet. Built with a simple, but solid, foundation and a dash of some reusable modules: we believe there is no better way to start your CSS off on the right track.</p>
-<h2 id="features">Features</h2>
-<div class="grd">
-    <div class="row">
-        <div class="col-3 is-px2">
-            <h4>Pure CSS</h4>
-            <p>Well, at least purer. By using Myth, we can take advantage of using bleeding edge CSS features that are still in the oven. This means that the CSS code we have written will soon be <em>official</em> CSS.</p>
-        </div>
-        <div class="col-3">
-            <h4>Modular</h4>
-            <p>We were inspired by many great CSS projects to use a simple and modular approach to styling elements.</p>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-3 is-px2">
-            <h4>Clean &amp; Simple</h4>
-            <p>We fundamentally disagree that a CSS library should be a heavy, bloated series of mostly unused styles. A CSS library should be small, clean, and efficient.</p>
-        </div>
-        <div class="col-3">
-            <h4>Another Feature</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio voluptate soluta, voluptas sequi aperiam saepe repellendus numquam rerum, ipsum fugit nobis facilis odio nemo laboriosam officiis, doloribus assumenda vitae molestiae.</p>
-        </div>
-    </div>
-</div>
-
-			<h3 id="breadcrumbs">Breadcrumbs</h3>
-<p><p>The breadcrumbs module is built to dynamically change to display only the final item on mobile devices. This saves space, while still giving the user access to the breadcrumbs trail.</p></p>
+### Breadcrumbs
+<p>The breadcrumbs module is built to dynamically change to display only the final item on mobile devices. This saves space, while still giving the user access to the breadcrumbs trail.</p>
 <ul class="breadcrumbs">
     <li><a href="#">Home</a></li>
     <li><a href="#">Ghostbusters</a></li>
@@ -79,8 +7,8 @@
     <li class="last"><a href="#">Ghostbusters III?</a></li>
 </ul>
 
-<h3 id="buttons">Buttons</h3>
-<p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut veritatis quas, velit vitae quam eligendi facere numquam illo ipsum cumque adipisci excepturi cum, inventore corporis laboriosam tempora dignissimos! Aperiam, aut.</p></p>
+### Buttons
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut veritatis quas, velit vitae quam eligendi facere numquam illo ipsum cumque adipisci excepturi cum, inventore corporis laboriosam tempora dignissimos! Aperiam, aut.</p>
 <div class="grd">
     <div class="row">
         <div class="col-6">
@@ -102,8 +30,8 @@
     </div>
 </div>
 
-<h3 id="forms">Forms</h3>
-<p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad magni minima atque a voluptate corrupti eligendi, qui cumque eius alias non pariatur sapiente obcaecati laboriosam officiis. Totam non laborum consequuntur.</p></p>
+### Forms
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad magni minima atque a voluptate corrupti eligendi, qui cumque eius alias non pariatur sapiente obcaecati laboriosam officiis. Totam non laborum consequuntur.</p>
 <form action="" class="">
     <label for="name">Name</label>
     <input type="text" id="name" title="Input your name." placeholder="Harold Ramis">
@@ -134,8 +62,8 @@
     <input type="submit" class="btn-round" value="Submit">
 </form>
 
-<h3 id="grid">Grid</h3>
-<p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore distinctio ex corrupti non corporis culpa qui optio error odio, nam, aut rem, cupiditate sapiente at. Possimus dignissimos, fuga vel. Libero!</p></p>
+### Grid
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore distinctio ex corrupti non corporis culpa qui optio error odio, nam, aut rem, cupiditate sapiente at. Possimus dignissimos, fuga vel. Libero!</p>
 <div class="grd">
     <div class="row is-my1">
         <div class="col-1 is-px1">
@@ -179,8 +107,8 @@
     </div>
 </div>
 
-<h3 id="media">Media</h3>
-<p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam enim incidunt necessitatibus magnam ad possimus, velit, porro corporis sit tempore nisi. Delectus ipsum eaque suscipit, eveniet perferendis ut iusto hic.</p></p>
+### Media
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam enim incidunt necessitatibus magnam ad possimus, velit, porro corporis sit tempore nisi. Delectus ipsum eaque suscipit, eveniet perferendis ut iusto hic.</p>
 <div class="media">
     <div class="media-figure">
         <img src="http://fillmurray.com/100/100" alt="Media Figure">
@@ -200,8 +128,10 @@
     </div>
 </div>
 
-<h3 id="tables">Tables</h3>
-<p>Tables have remained one of the more difficult decisions to make when determining how to display them on smaller screens. With Cinch, we&#39;ve opted to keep them as pure as possible, while still giving users on smaller devices the full functionality they expect.</p>
+### Tables
+
+Tables have remained one of the more difficult decisions to make when determining how to display them on smaller screens. With Cinch, we've opted to keep them as pure as possible, while still giving users on smaller devices the full functionality they expect.
+
 <div class="table">
     <table>
         <thead>
@@ -240,15 +170,3 @@
         </tbody>
     </table>
 </div>
-
-		</main>
-
-		<footer id="footer">
-			<div class="measure">
-				<p><span class="logo">Cinch</span> v0.0.1</p>
-			</div>
-		</footer>
-
-	</body>
-
-</html>

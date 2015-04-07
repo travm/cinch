@@ -61,7 +61,7 @@ h6 {
 }
 
 a {
-  color: #0079c1;
+  color: #FFFFFF;
 }
 
 p {
@@ -124,11 +124,11 @@ table {
 
 table > thead > tr {
   color: #FFFFFF;
-  background: #3D9970;
+  background: #FF851B;
 }
 
 table > tbody > tr:nth-child(even) {
-  background: rgb(226, 240, 234);
+  background: rgb(255, 237, 221);
 }
 
 table th,
@@ -162,7 +162,7 @@ textarea {
 
 input:focus,
 textarea:focus {
-  outline-color: #FF851B;
+  outline-color: #39CCCC;
 }
 
 /* Misc */
@@ -175,12 +175,12 @@ hr {
 }
 
 ::-moz-selection {
-  background: #FF851B;
+  background: #39CCCC;
   color: #FFFFFF;
 }
 
 ::selection {
-  background: #FF851B;
+  background: #39CCCC;
   color: #FFFFFF;
 }
 
@@ -192,22 +192,9 @@ hr {
 
 /* Header */
 
-#header {
-  color: #FFFFFF;
-  padding: 4em 0;
-  background: #3D9970;
-}
-
 /* Core */
 
 /* Footer */
-
-#footer {
-  color: #fff;
-  margin: 4em 0 0 0;
-  padding: 2em 0;
-  background: #3D9970;
-}
 
 /***********/
 
@@ -255,7 +242,7 @@ hr {
 }
 
 .breadcrumbs > li > a {
-  color: #3D9970;
+  color: #FF851B;
   text-decoration: none;
 }
 
@@ -271,54 +258,54 @@ hr {
 }
 
 .btn-ghost {
-  color: #3D9970;
+  color: #FF851B;
   padding: .75rem 1.5rem;
   background: none;
-  box-shadow: inset 0px 0px 0px 2px #3D9970;
+  box-shadow: inset 0px 0px 0px 2px #FF851B;
   border: none;
   border-radius: 4px;
 }
 
 .btn-ghost:hover {
   color: #FFFFFF;
-  background: #3D9970;
+  background: #FF851B;
 }
 
 .btn-ghost:active {
-  background: rgb(100, 173, 141);
+  background: rgb(255, 157, 73);
 }
 
 .btn-round {
   color: #FFFFFF;
   text-shadow: 1px 1px 1px rgba(0,0,0,0.15);
   padding: .75rem 1.5rem;
-  background: #3D9970;
+  background: #FF851B;
   border: none;
   border-radius: 4px;
 }
 
 .btn-round:hover {
-  background: rgb(110, 179, 148);
+  background: rgb(255, 164, 84);
 }
 
 .btn-round:active {
-  background: rgb(90, 168, 133);
+  background: rgb(255, 151, 61);
 }
 
 .btn-pill {
   color: #FFFFFF;
   padding: .75rem 2rem;
-  background: #3D9970;
+  background: #FF851B;
   border: none;
   border-radius: 2em;
 }
 
 .btn-pill:hover {
-  background: rgb(110, 179, 148);
+  background: rgb(255, 164, 84);
 }
 
 .btn-pill:active {
-  background: rgb(80, 163, 126);
+  background: rgb(255, 145, 50);
 }
 
 .btn-lg {
@@ -368,6 +355,31 @@ hr {
 }
 
 /* Hero */
+
+/* List Chain */
+
+.list-chain {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.list-chain li {
+  margin: 0 1.5em 0 0;
+  display: inline-block;
+}
+
+.list-chain li:last-child {
+  margin-right: 0;
+}
+
+/* List Stack */
+
+.list-stack {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
 
 /* Logo */
 
@@ -602,4 +614,41 @@ hr {
   /* MODIFIERS */
 
   /*************/
+}
+
+/********/
+
+/* BASE */
+
+/********/
+
+html,
+body {
+  height: 100%;
+}
+
+/**********/
+
+/* LAYOUT */
+
+/**********/
+
+/* Header */
+
+#header {
+  color: #FFFFFF;
+  text-align: center;
+  padding: 4em 0;
+  background: #FF851B;
+}
+
+/* Core */
+
+/* Footer */
+
+#footer {
+  color: #fff;
+  margin: 4em 0 0 0;
+  padding: 2em 0;
+  background: #FF851B;
 }

@@ -4,9 +4,9 @@
 
 :root {
     /* Color Palette */
-    --clr-pri: var(--clrs-olive);
-    --clr-sec: var(--clrs-orange);
-    --clr-ter: var(--clrs-aqua);
+    --clr-pri: var(--clrs-orange);
+    --clr-sec: var(--clrs-teal);
+    --clr-ter: var(--clrs-white);
 
     --clr-text: #555;
 
@@ -59,7 +59,7 @@
     h6 {font-size:1em;}
     h1, h2, h3, h4, h5, h6 {margin:1.5em 0 .5em 0;}
 
-    a {color:#0079c1;}
+    a {color:var(--clr-ter);}
     p {line-height:1.5;}
 
     del, s {text-decoration:line-through;}
@@ -105,7 +105,7 @@
 /**********/
 
     /* Header */
-    #header {color:var(--clrs-white); padding:4em 0; background:var(--clr-pri);}
+    #header {}
     #header-content {}
 
     /* Core */
@@ -113,7 +113,7 @@
     #core-content {}
 
     /* Footer */
-    #footer {color:#fff; margin:4em 0 0 0; padding:2em 0; background:var(--clr-pri);}
+    #footer {}
     #footer-content {}
 
 
@@ -191,6 +191,15 @@
     /* Hero */
     .hero {}
     .hero-content {}
+
+    /* List Chain */
+    .list-chain {list-style:none; margin:0; padding:0;}
+    .list-chain li {margin:0 1.5em 0 0; display:inline-block}
+    .list-chain li:last-child {margin-right:0;}
+
+    /* List Stack */
+    .list-stack {list-style:none; margin:0; padding:0;}
+    .list-stack li {}
 
     /* Logo */
     .logo {font-family:"azo-sans-uber", sans-serif; font-weight:300; margin:0;}

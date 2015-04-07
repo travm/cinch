@@ -6,23 +6,32 @@ var gulp = require('gulp'),
     ghPages = require('gulp-gh-pages'),
 
     // Node Modules
-    beep = require('beeper'),
+    del = require('del');
 
-    // Source Files
-    css = ['src/cinch.css'];
-
-gulp.task('styles', function () {
-    gulp.src(css)
+gulp.task('project', function () {
+    gulp.src(['src/cinch.css'])
         .pipe(gulp.dest('dist'))
         .pipe(myth())
         .pipe(minify())
         .pipe(rename('cinch.lib.css'))
-        .pipe(gulp.dest('dist'))
+        .pipe(gulp.dest('dist'));
+});
+
+gulp.task('site', function () {
+    gulp.src(['src/cinch.css', 'src/site.css'])
+        .pipe(concat('site.css'))
+        .pipe(myth())
         .pipe(gulp.dest('site/templates/css'));
 });
 
-gulp.task('watch', function () {
-    gulp.watch(css, ['styles']);
+gulp.task('clean', function () {
+    del('dist/*');
+    del('site/templates/css/*');
 });
 
-gulp.task('default', ['styles', 'watch']);
+
+gulp.task('watch', function () {
+    gulp.watch(['src/cinch.css', 'src/site.css'], ['project', 'site']);
+});
+
+gulp.task('default', ['project', 'site', 'watch']);

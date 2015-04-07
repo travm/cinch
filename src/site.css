@@ -1,0 +1,22 @@
+/********/
+/* BASE */
+/********/
+
+html, body {height:100%;}
+
+
+/**********/
+/* LAYOUT */
+/**********/
+
+/* Header */
+#header {color:var(--clrs-white); text-align:center; padding:4em 0; background:var(--clr-pri);}
+#header-content {}
+
+/* Core */
+#core {}
+#core-content {}
+
+/* Footer */
+#footer {color:#fff; margin:4em 0 0 0; padding:2em 0; background:var(--clr-pri);}
+#footer-content {}
