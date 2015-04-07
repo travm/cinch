@@ -9,7 +9,7 @@ var gulp = require('gulp'),
     del = require('del');
 
 gulp.task('project', function () {
-    gulp.src(['src/cinch.css'])
+    return gulp.src(['src/cinch.css'])
         .pipe(gulp.dest('dist'))
         .pipe(myth())
         .pipe(minify())
@@ -18,15 +18,17 @@ gulp.task('project', function () {
 });
 
 gulp.task('site', function () {
-    gulp.src(['src/cinch.css', 'src/site.css'])
+    return gulp.src(['src/cinch.css', 'src/site.css'])
         .pipe(concat('site.css'))
         .pipe(myth())
         .pipe(gulp.dest('site/templates/css'));
 });
 
 gulp.task('deploy', function () {
-    gulp.src('site/output')
-        .pipe(ghPages());
+    return gulp.src('site/output/**/*')
+        .pipe(ghPages({
+            cacheDir: "site/cache"
+        }));
 });
 
 gulp.task('clean', function () {
