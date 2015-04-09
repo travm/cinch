@@ -8,7 +8,7 @@ Instead of primarily acting as a library, Cinch can also be used as a starting p
     <div class="row">
         <div class="col-3 is-px2">
             <h4>Pure CSS</h4>
-            <p>By using Myth, we can take advantage of using bleeding edge CSS features that are still in the oven. This means that the CSS code we have written will soon be <em>official</em> CSS.</p>
+            <p>Using Myth, we can take advantage of using bleeding edge CSS features that are still in the oven. This means that the CSS code we have written will soon be <em>official</em> CSS.</p>
         </div>
         <div class="col-3">
             <h4>Modular</h4>

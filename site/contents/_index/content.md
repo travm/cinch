@@ -1,5 +1,5 @@
 ### Breadcrumbs
-<p>The breadcrumbs module is built to dynamically change to display only the final item on mobile devices. This saves space, while still giving the user access to the breadcrumbs trail.</p>
+The breadcrumbs module is built to dynamically change to display only the final item on mobile devices. This saves space, while still giving the user access to the breadcrumbs trail.
 <ul class="breadcrumbs">
     <li><a href="#">Home</a></li>
     <li><a href="#">Ghostbusters</a></li>
@@ -8,7 +8,7 @@
 </ul>
 
 ### Buttons
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut veritatis quas, velit vitae quam eligendi facere numquam illo ipsum cumque adipisci excepturi cum, inventore corporis laboriosam tempora dignissimos! Aperiam, aut.</p>
+Here are a few button styles you get you started. We use these buttons to quickly prototype layouts. As those layouts mature, we revisit the button classes and customize them to fit our project needs.
 <div class="grd">
     <div class="row">
         <div class="col-6">
@@ -31,7 +31,6 @@
 </div>
 
 ### Forms
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad magni minima atque a voluptate corrupti eligendi, qui cumque eius alias non pariatur sapiente obcaecati laboriosam officiis. Totam non laborum consequuntur.</p>
 <form action="" class="">
     <label for="name">Name</label>
     <input type="text" id="name" title="Input your name." placeholder="Harold Ramis">
@@ -63,42 +62,41 @@
 </form>
 
 ### Grid
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore distinctio ex corrupti non corporis culpa qui optio error odio, nam, aut rem, cupiditate sapiente at. Possimus dignissimos, fuga vel. Libero!</p>
 <div class="grd">
-    <div class="row is-my1">
-        <div class="col-1 is-px1">
+    <div class="row">
+        <div class="col-1">
             <div class="box">.col-1</div>
         </div>
         <div class="col-5">
             <div class="box">.col-5</div>
         </div>
     </div>
-    <div class="row is-my1">
-        <div class="col-2 is-px1">
+    <div class="row">
+        <div class="col-2">
             <div class="box">.col-2</div>
         </div>
         <div class="col-4">
             <div class="box">.col-4</div>
         </div>
     </div>
-    <div class="row is-my1">
-        <div class="col-3 is-px1">
+    <div class="row">
+        <div class="col-3">
             <div class="box">.col-3</div>
         </div>
         <div class="col-3">
             <div class="box">.col-3</div>
         </div>
     </div>
-    <div class="row is-my1">
-        <div class="col-4 is-px1">
+    <div class="row">
+        <div class="col-4">
             <div class="box">.col-4</div>
         </div>
         <div class="col-2">
             <div class="box">.col-2</div>
         </div>
     </div>
-    <div class="row is-my1">
-        <div class="col-5 is-px1">
+    <div class="row">
+        <div class="col-5">
             <div class="box">.col-5</div>
         </div>
         <div class="col-1">
@@ -108,7 +106,6 @@
 </div>
 
 ### Media
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam enim incidunt necessitatibus magnam ad possimus, velit, porro corporis sit tempore nisi. Delectus ipsum eaque suscipit, eveniet perferendis ut iusto hic.</p>
 <div class="media">
     <div class="media-figure">
         <img src="http://fillmurray.com/100/100" alt="Media Figure">
@@ -129,7 +126,6 @@
 </div>
 
 ### Tables
-
 Tables have remained one of the more difficult decisions to make when determining how to display them on smaller screens. With Cinch, we've opted to keep them as pure as possible, while still giving users on smaller devices the full functionality they expect.
 
 <div class="table">
