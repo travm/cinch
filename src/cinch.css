@@ -4,8 +4,8 @@
 
 :root {
     /* Color Palette */
-    --clr-pri: var(--clrs-olive);
-    --clr-sec: var(--clrs-blue);
+    --clr-pri: var(--clrs-blue);
+    --clr-sec: var(--clrs-aqua);
     --clr-ter: var(--clrs-orange);
 
     --clr-text: #555;
@@ -67,7 +67,7 @@
     small {font-size:90%;}
     strong, b {font-weight:bold;}
     em {font-style:italic;}
-    blockquote {padding:1em; border-left:3px solid var(--clrs-gray);}
+    blockquote {margin:0; padding:0 1em; border-left:5px solid var(--clrs-silver); overflow:hidden;}
 
     /* Images */
     img {display:block;}
@@ -153,7 +153,7 @@
 
     .btn-ghost {
         color:var(--clr-pri);
-        padding:1em 1.5em;
+        padding:1.25em 2em;
         background:none;
         box-shadow:inset 0px 0px 0px 2px var(--clr-pri);
         border:none;
@@ -164,7 +164,7 @@
 
     .btn-round {
         color:var(--clrs-white);
-        padding:1em 1.5em;
+        padding:1.25em 2em;
         background:var(--clr-pri);
         border:none;
         border-radius:4px;
@@ -174,7 +174,7 @@
 
     .btn-pill {
         color:var(--clrs-white);
-        padding:1em 2em;
+        padding:1.25em 2.5em;
         background:var(--clr-pri);
         border:none;
         border-radius:2em;

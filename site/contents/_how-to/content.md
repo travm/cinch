@@ -29,3 +29,12 @@ and to use.
 ```bash
 npm install -g myth
 ```
+
+#### Using Myth
+If you are familiar with similar pre-processors such as Sass or Less, then you'll have no trouble with Myth. Here are some basic examples of how you can get started using Myth.
+
+```bash
+myth input.css output.css -c -w
+```
+
+> This code specifies the input and output files, and additionally instructs Myth to compress the output and watch for any future changes to our input.
