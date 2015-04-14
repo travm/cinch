@@ -219,6 +219,7 @@
     /* Media */
     .media {margin:2em 0; overflow:hidden;}
     .media-figure {margin:0 1.5em 0 0; border-radius:50%; overflow:hidden; float:left;}
+    .media-figure > img {width:100%;}
     .media-body {padding:0; overflow:hidden;}
 
     /* Table */

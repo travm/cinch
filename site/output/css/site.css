@@ -440,6 +440,10 @@ hr {
   float: left;
 }
 
+.media-figure > img {
+  width: 100%;
+}
+
 .media-body {
   padding: 0;
   overflow: hidden;
