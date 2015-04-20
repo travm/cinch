@@ -20,7 +20,7 @@
 body {
   color: #555;
   line-height: 1.5;
-  font: 300 16px "rooney-sans", sans-serif;
+  font: 300 16px sans-serif;
   margin: 0;
   padding: 0;
 }
@@ -33,22 +33,31 @@ h1 {
 
 h2 {
   font-size: 2.5em;
+  color: rgb(65, 65, 65);
 }
 
 h3 {
   font-size: 1.75em;
+  font-weight: 400;
+  color: rgb(65, 65, 65);
 }
 
 h4 {
   font-size: 1.5em;
+  font-weight: 300;
+  color: rgb(112, 112, 112);
 }
 
 h5 {
   font-size: 1.25em;
+  font-weight: 300;
+  color: rgb(112, 112, 112);
 }
 
 h6 {
   font-size: 1em;
+  font-weight: 300;
+  color: rgb(160, 160, 160);
 }
 
 h1,
@@ -61,11 +70,16 @@ h6 {
 }
 
 a {
-  color: #FFFFFF;
+  color: #0074D9;
 }
 
 p {
   line-height: 1.5;
+}
+
+p > a {
+  text-decoration: none;
+  border-bottom: 1px solid #0074D9;
 }
 
 del,
@@ -92,14 +106,26 @@ em {
 }
 
 blockquote {
-  padding: 1em;
-  border-left: 3px solid #AAAAAA;
+  margin: 0;
+  padding: 0 1em;
+  border-left: 5px solid #DDDDDD;
+  overflow: hidden;
 }
 
 /* Images */
 
 img {
   display: block;
+}
+
+/* Code */
+
+code,
+pre {
+  color: #FFFFFF;
+  padding: 1em;
+  background: #111111;
+  border-radius: 4px;
 }
 
 /* Lists */
@@ -124,11 +150,11 @@ table {
 
 table > thead > tr {
   color: #FFFFFF;
-  background: #FF851B;
+  background: #0074D9;
 }
 
 table > tbody > tr:nth-child(even) {
-  background: rgb(255, 237, 221);
+  background: rgb(217, 234, 249);
 }
 
 table th,
@@ -162,7 +188,7 @@ textarea {
 
 input:focus,
 textarea:focus {
-  outline-color: #39CCCC;
+  outline-color: #7FDBFF;
 }
 
 /* Misc */
@@ -175,12 +201,12 @@ hr {
 }
 
 ::-moz-selection {
-  background: #39CCCC;
+  background: #7FDBFF;
   color: #FFFFFF;
 }
 
 ::selection {
-  background: #39CCCC;
+  background: #7FDBFF;
   color: #FFFFFF;
 }
 
@@ -242,77 +268,81 @@ hr {
 }
 
 .breadcrumbs > li > a {
-  color: #FF851B;
+  color: #0074D9;
   text-decoration: none;
 }
 
 /* Buttons */
 
 [class*="btn-"] {
-  width: 100%;
+  /* width:100%; */
   font-size: .75em;
+  font-weight: 400;
   margin: 0 0 1em 0;
+  text-decoration: none;
   text-transform: uppercase;
+  text-align: center;
   transition: color .3s, background .3s;
+  box-sizing: border-box;
   cursor: pointer;
+  display: inline-block;
 }
 
 .btn-ghost {
-  color: #FF851B;
-  padding: .75rem 1.5rem;
+  color: #0074D9;
+  padding: 1.25em 2em;
   background: none;
-  box-shadow: inset 0px 0px 0px 2px #FF851B;
+  box-shadow: inset 0px 0px 0px 2px #0074D9;
   border: none;
   border-radius: 4px;
 }
 
 .btn-ghost:hover {
   color: #FFFFFF;
-  background: #FF851B;
+  background: #0074D9;
 }
 
 .btn-ghost:active {
-  background: rgb(255, 157, 73);
+  background: rgb(51, 144, 225);
 }
 
 .btn-round {
   color: #FFFFFF;
-  text-shadow: 1px 1px 1px rgba(0,0,0,0.15);
-  padding: .75rem 1.5rem;
-  background: #FF851B;
+  padding: 1.25em 2em;
+  background: #0074D9;
   border: none;
   border-radius: 4px;
 }
 
 .btn-round:hover {
-  background: rgb(255, 164, 84);
+  background: rgb(64, 151, 227);
 }
 
 .btn-round:active {
-  background: rgb(255, 151, 61);
+  background: rgb(38, 137, 223);
 }
 
 .btn-pill {
   color: #FFFFFF;
-  padding: .75rem 2rem;
-  background: #FF851B;
+  padding: 1.25em 2.5em;
+  background: #0074D9;
   border: none;
   border-radius: 2em;
 }
 
 .btn-pill:hover {
-  background: rgb(255, 164, 84);
+  background: rgb(64, 151, 227);
 }
 
 .btn-pill:active {
-  background: rgb(255, 145, 50);
+  background: rgb(25, 130, 221);
 }
 
 .btn-lg {
   font-size: 1em;
 }
 
-/* Grids */
+/* Grid */
 
 .grd {
   overflow: hidden;
@@ -320,6 +350,10 @@ hr {
 
 .grd > .row {
   overflow: hidden;
+}
+
+.grd > .row > [class*="col-"] {
+  margin: 0 0 1em 0;
 }
 
 .grd > .row > [class*="col-"]:first-of-type {
@@ -409,6 +443,10 @@ hr {
   border-radius: 50%;
   overflow: hidden;
   float: left;
+}
+
+.media-figure > img {
+  width: 100%;
 }
 
 .media-body {
@@ -564,15 +602,10 @@ hr {
     margin: 0;
   }
 
-  /* Buttons */
-
-  [class*='btn-'] {
-    width: auto;
-  }
-
   /* Grids */
 
   .grd > .row > [class*="col-"] {
+    padding: 0 .5em;
     box-sizing: border-box;
     float: left;
   }
@@ -622,8 +655,8 @@ hr {
 
 /********/
 
-html,
 body {
+  font-family: "ratio", sans-serif;
   height: 100%;
 }
 
@@ -637,9 +670,9 @@ body {
 
 #header {
   color: #FFFFFF;
-  text-align: center;
+  text-align: left;
   padding: 4em 0;
-  background: #FF851B;
+  background: #0074D9;
 }
 
 /* Core */
@@ -650,5 +683,5 @@ body {
   color: #fff;
   margin: 4em 0 0 0;
   padding: 2em 0;
-  background: #FF851B;
+  background: #0074D9;
 }

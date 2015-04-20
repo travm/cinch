@@ -38,49 +38,40 @@
     <header id="header">
         <div class="measure">
             <h1 class="logo">Cinch</h1>
-            <p>Simple, pure, efficient.</p>
+            <p>A simple, pure, and efficient CSS micro-framework.</p>
         </div>
     </header>
 
 		<main id="core" class="measure" role="main">
-			<h2 id="why-cinch-">Why Cinch?</h2>
-<p>Cinch is a CSS library that aims to be a more pure and efficient development experience. We believe that adding a large, heavy CSS library on top of your project&#39;s CSS is no way to treat your application. In fact, we&#39;re strongly against it.</p>
-<p>Instead of primarily acting as a library, Cinch can also be used as a starting point for your stylesheet. Built with a simple, but solid, foundation and a dash of some reusable modules: we believe there is no better way to start your CSS off on the right track.</p>
-<h2 id="features">Features</h2>
+			<h2 id="features">Features</h2>
 <div class="grd">
     <div class="row">
-        <div class="col-3 is-px2">
-            <h4>Pure CSS</h4>
-            <p>By using Myth, we can take advantage of using bleeding edge CSS features that are still in the oven. This means that the CSS code we have written will soon be <em>official</em> CSS.</p>
+        <div class="col-2">
+            <h4>Small &amp; Simple</h4>
+            <p>Focused on providing a small set of the most valuable commonly used features. Start with Cinch and add in additional code as your project grows.</p>
         </div>
-        <div class="col-3">
+        <div class="col-2">
+            <h4>Pure CSS + Myth</h4>
+            <p>Created using pure CSS. Paired with <a href="http://myth.io">Myth</a>, we can take advantage of cutting edge CSS features while they are still being finalized.</p>
+        </div>
+        <div class="col-2">
             <h4>Modular</h4>
-            <p>We were inspired by many great CSS projects to use a simple and modular approach to styling elements.</p>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-3 is-px2">
-            <h4>Clean &amp; Simple</h4>
-            <p>We fundamentally disagree that a CSS library should be a heavy, bloated series of mostly unused styles. A CSS library should be small, clean, and efficient.</p>
-        </div>
-        <div class="col-3">
-            <h4>Lorem Ipsum</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio voluptate soluta, voluptas sequi aperiam saepe repellendus numquam rerum, ipsum fugit nobis facilis odio nemo laboriosam officiis, doloribus assumenda vitae molestiae.</p>
+            <p>Heavily inspired by <a href="http://smacss.com">SMACSS</a> and other popular object-oriented methodologies to create modular, reusable elements.</p>
         </div>
     </div>
 </div>
 
 			<h3 id="breadcrumbs">Breadcrumbs</h3>
-<p><p>The breadcrumbs module is built to dynamically change to display only the final item on mobile devices. This saves space, while still giving the user access to the breadcrumbs trail.</p></p>
+<p>The breadcrumbs module is built to dynamically change to display only the final item on mobile devices. This saves space, while still giving the user access to the breadcrumbs trail.</p>
 <ul class="breadcrumbs">
     <li><a href="#">Home</a></li>
-    <li><a href="#">Ghostbusters</a></li>
-    <li><a href="#">Ghostbusters II</a></li>
-    <li class="last"><a href="#">Ghostbusters III?</a></li>
+    <li><a href="#">Sub-Page One</a></li>
+    <li><a href="#">Sub-Page Two</a></li>
+    <li class="last"><a href="#">Sub-Page Three</a></li>
 </ul>
 
 <h3 id="buttons">Buttons</h3>
-<p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut veritatis quas, velit vitae quam eligendi facere numquam illo ipsum cumque adipisci excepturi cum, inventore corporis laboriosam tempora dignissimos! Aperiam, aut.</p></p>
+<p>Here are a few button styles you get you started. We use these buttons to quickly prototype layouts. As those layouts mature, we revisit the button classes and customize them to fit our project needs.</p>
 <div class="grd">
     <div class="row">
         <div class="col-6">
@@ -103,19 +94,18 @@
 </div>
 
 <h3 id="forms">Forms</h3>
-<p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad magni minima atque a voluptate corrupti eligendi, qui cumque eius alias non pariatur sapiente obcaecati laboriosam officiis. Totam non laborum consequuntur.</p></p>
 <form action="" class="">
     <label for="name">Name</label>
-    <input type="text" id="name" title="Input your name." placeholder="Harold Ramis">
+    <input type="text" id="name" title="Input your name." placeholder="Your name...">
 
     <div class="grd">
       <div class="row">
         <div class="col-2">
           <label for="category">Category</label>
           <select name="category" id="category" title="Select a category.">
-              <option value="0">Ghost</option>
-              <option value="1">Demon</option>
-              <option value="2">Monster</option>
+              <option value="0">Option One</option>
+              <option value="1">Option Two</option>
+              <option value="2">Option Three</option>
           </select>
         </div>
         <div class="col-2">
@@ -130,47 +120,46 @@
       </div>
     </div>
     <label for="message">Message</label>
-    <textarea name="message" id="message" cols="30" rows="10" placeholder="Who ya gonna call?"></textarea>
+    <textarea name="message" id="message" cols="30" rows="10" placeholder="Your message..."></textarea>
     <input type="submit" class="btn-round" value="Submit">
 </form>
 
 <h3 id="grid">Grid</h3>
-<p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore distinctio ex corrupti non corporis culpa qui optio error odio, nam, aut rem, cupiditate sapiente at. Possimus dignissimos, fuga vel. Libero!</p></p>
 <div class="grd">
-    <div class="row is-my1">
-        <div class="col-1 is-px1">
+    <div class="row">
+        <div class="col-1">
             <div class="box">.col-1</div>
         </div>
         <div class="col-5">
             <div class="box">.col-5</div>
         </div>
     </div>
-    <div class="row is-my1">
-        <div class="col-2 is-px1">
+    <div class="row">
+        <div class="col-2">
             <div class="box">.col-2</div>
         </div>
         <div class="col-4">
             <div class="box">.col-4</div>
         </div>
     </div>
-    <div class="row is-my1">
-        <div class="col-3 is-px1">
+    <div class="row">
+        <div class="col-3">
             <div class="box">.col-3</div>
         </div>
         <div class="col-3">
             <div class="box">.col-3</div>
         </div>
     </div>
-    <div class="row is-my1">
-        <div class="col-4 is-px1">
+    <div class="row">
+        <div class="col-4">
             <div class="box">.col-4</div>
         </div>
         <div class="col-2">
             <div class="box">.col-2</div>
         </div>
     </div>
-    <div class="row is-my1">
-        <div class="col-5 is-px1">
+    <div class="row">
+        <div class="col-5">
             <div class="box">.col-5</div>
         </div>
         <div class="col-1">
@@ -180,7 +169,6 @@
 </div>
 
 <h3 id="media">Media</h3>
-<p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam enim incidunt necessitatibus magnam ad possimus, velit, porro corporis sit tempore nisi. Delectus ipsum eaque suscipit, eveniet perferendis ut iusto hic.</p></p>
 <div class="media">
     <div class="media-figure">
         <img src="http://fillmurray.com/100/100" alt="Media Figure">
