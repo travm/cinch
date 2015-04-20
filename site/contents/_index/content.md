@@ -2,9 +2,9 @@
 The breadcrumbs module is built to dynamically change to display only the final item on mobile devices. This saves space, while still giving the user access to the breadcrumbs trail.
 <ul class="breadcrumbs">
     <li><a href="#">Home</a></li>
-    <li><a href="#">Ghostbusters</a></li>
-    <li><a href="#">Ghostbusters II</a></li>
-    <li class="last"><a href="#">Ghostbusters III?</a></li>
+    <li><a href="#">Sub-Page One</a></li>
+    <li><a href="#">Sub-Page Two</a></li>
+    <li class="last"><a href="#">Sub-Page Three</a></li>
 </ul>
 
 ### Buttons
@@ -33,16 +33,16 @@ Here are a few button styles you get you started. We use these buttons to quickl
 ### Forms
 <form action="" class="">
     <label for="name">Name</label>
-    <input type="text" id="name" title="Input your name." placeholder="Harold Ramis">
+    <input type="text" id="name" title="Input your name." placeholder="Your name...">
 
     <div class="grd">
       <div class="row">
         <div class="col-2">
           <label for="category">Category</label>
           <select name="category" id="category" title="Select a category.">
-              <option value="0">Ghost</option>
-              <option value="1">Demon</option>
-              <option value="2">Monster</option>
+              <option value="0">Option One</option>
+              <option value="1">Option Two</option>
+              <option value="2">Option Three</option>
           </select>
         </div>
         <div class="col-2">
@@ -57,7 +57,7 @@ Here are a few button styles you get you started. We use these buttons to quickl
       </div>
     </div>
     <label for="message">Message</label>
-    <textarea name="message" id="message" cols="30" rows="10" placeholder="Who ya gonna call?"></textarea>
+    <textarea name="message" id="message" cols="30" rows="10" placeholder="Your message..."></textarea>
     <input type="submit" class="btn-round" value="Submit">
 </form>
 

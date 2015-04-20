@@ -70,11 +70,16 @@ h6 {
 }
 
 a {
-  color: #FF851B;
+  color: #0074D9;
 }
 
 p {
   line-height: 1.5;
+}
+
+p > a {
+  text-decoration: none;
+  border-bottom: 1px solid #0074D9;
 }
 
 del,
@@ -665,7 +670,7 @@ body {
 
 #header {
   color: #FFFFFF;
-  text-align: center;
+  text-align: left;
   padding: 4em 0;
   background: #0074D9;
 }

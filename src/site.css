@@ -10,7 +10,7 @@ body {font-family: "ratio", sans-serif; height:100%;}
 /**********/
 
 /* Header */
-#header {color:var(--clrs-white); text-align:center; padding:4em 0; background:var(--clr-pri);}
+#header {color:var(--clrs-white); text-align:left; padding:4em 0; background:var(--clr-pri);}
 #header-content {}
 
 /* Core */
