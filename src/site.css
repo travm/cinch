@@ -2,7 +2,7 @@
 /* BASE */
 /********/
 
-body {font-family: "ratio", sans-serif; height:100%;}
+body {font-family:"ratio", sans-serif; height:100%;}
 
 
 /**********/
@@ -20,3 +20,11 @@ body {font-family: "ratio", sans-serif; height:100%;}
 /* Footer */
 #footer {color:#fff; margin:4em 0 0 0; padding:2em 0; background:var(--clr-pri);}
 #footer-content {}
+
+
+/***********/
+/* MODULES */
+/***********/
+
+/* Logo */
+.logo {font-family:"azo-sans-uber", sans-serif; font-weight:300; margin:0;}

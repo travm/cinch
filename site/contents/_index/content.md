@@ -9,7 +9,7 @@ The breadcrumbs module is built to dynamically change to display only the final 
 
 ### Buttons
 Here are a few button styles you get you started. We use these buttons to quickly prototype layouts. As those layouts mature, we revisit the button classes and customize them to fit our project needs.
-<div class="grd">
+<div class="grd is-my1">
     <div class="row">
         <div class="col-6">
             <h6>Base Size</h6>
@@ -19,7 +19,7 @@ Here are a few button styles you get you started. We use these buttons to quickl
         </div>
     </div>
 </div>
-<div class="grd">
+<div class="grd is-my1">
     <div class="row">
         <div class="col-6">
             <h6>Large Alternative</h6>
@@ -31,7 +31,7 @@ Here are a few button styles you get you started. We use these buttons to quickl
 </div>
 
 ### Forms
-<form action="" class="">
+<form action="" class="is-my1">
     <label for="name">Name</label>
     <input type="text" id="name" title="Input your name." placeholder="Your name...">
 
@@ -62,7 +62,7 @@ Here are a few button styles you get you started. We use these buttons to quickl
 </form>
 
 ### Grid
-<div class="grd">
+<div class="grd is-my1">
     <div class="row">
         <div class="col-1">
             <div class="box">.col-1</div>

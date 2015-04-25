@@ -45,23 +45,24 @@
     body {
         color:var(--clr-text);
         line-height:1.5;
-        font:300 16px sans-serif;
+        font:400 16px sans-serif;
         margin:0;
         padding:0;
     }
 
-    /* Text */
+    /* Typography */
     h1 {font-size:3.5em;}
     h2 {font-size:2.5em; color:color(var(--clrs-black) tint(20%));}
-    h3 {font-size:1.75em; font-weight:400; color:color(var(--clrs-black) tint(20%));}
-    h4 {font-size:1.5em; font-weight:300; color:color(var(--clrs-black) tint(40%));}
-    h5 {font-size:1.25em; font-weight:300; color:color(var(--clrs-black) tint(40%));}
-    h6 {font-size:1em; font-weight:300; color:color(var(--clrs-black) tint(60%));}
-    h1, h2, h3, h4, h5, h6 {margin:1.5em 0 .5em 0;}
+    h3 {font-size:1.75em; font-weight:400; color:color(var(--clr-pri) tint(20%));}
+    h4 {font-size:1.5em; font-weight:400; color:color(var(--clr-pri) tint(30%));}
+    h5 {font-size:1.25em; font-weight:400; color:color(var(--clr-pri) tint(40%));}
+    h6 {font-size:1em; font-weight:400; color:color(var(--clr-pri) tint(40%));}
+    h1, h2, h3, h4, h5, h6 {margin:1.5em 0 0 0;}
+    h1 + div {margin-top:2em;}
 
     a {color:var(--clr-pri);}
     p {line-height:1.5;}
-    p > a {text-decoration:none; border-bottom:1px solid var(--clr-pri);}
+    p > a {color:var(--clr-pri); text-decoration:none; border-bottom:1px solid var(--clr-pri);}
 
     del, s {text-decoration:line-through;}
     ins, u {text-decoration:underline;}
@@ -211,9 +212,6 @@
     .list-stack {list-style:none; margin:0; padding:0;}
     .list-stack li {}
 
-    /* Logo */
-    .logo {font-family:"azo-sans-uber", sans-serif; font-weight:300; margin:0;}
-
     /* Measure */
     .measure {width:80%; max-width:800px; margin:0 auto;}
 
@@ -235,22 +233,8 @@
     .is-visible {display:block !important;}
     .is-collapsed {max-height:0; transition: all ease 0.5s;}
     .is-expanded {max-height:1000px; transition: all ease 0.5s;}
-    .is-transparent {
-        opacity:0;
-        -webkit-transition: opacity ease 0.5s;
-        -moz-transition: opacity ease 0.5s;
-        -ms-transition: opacity ease 0.5s;
-        -o-transition: opacity ease 0.5s;
-        transition: opacity ease 0.5s;
-    }
-    .is-opaque {
-        opacity:1;
-        -webkit-transition: opacity ease 0.5s;
-        -moz-transition: opacity ease 0.5s;
-        -ms-transition: opacity ease 0.5s;
-        -o-transition: opacity ease 0.5s;
-        transition: opacity ease 0.5s;
-    }
+    .is-transparent {opacity:0; transition: opacity ease 0.5s;}
+    .is-opaque {opacity:1; transition: opacity ease 0.5s;}
 
     /* Padding */
     .is-p0 {padding:0;}
