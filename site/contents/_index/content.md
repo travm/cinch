@@ -1,4 +1,14 @@
-### Breadcrumbs
+## Typography
+<p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, <strong>sed do eiusmod tempor</strong> incididunt ut labore et dolore magna aliqua. Ut enim ad <del>minim</del> veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+Lorem ipsum dolor sit amet, <a href="#">consectetur adipisicing</a> elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure <em>dolor in reprehenderit</em> in voluptate velit esse <strong>cillum dolore</strong> eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in <ins>culpa qui officia</ins> deserunt mollit anim id est laborum.
+
+> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+
+## Breadcrumbs
 The breadcrumbs module is built to dynamically change to display only the final item on mobile devices. This saves space, while still giving the user access to the breadcrumbs trail.
 <ul class="breadcrumbs">
     <li><a href="#">Home</a></li>
@@ -7,7 +17,7 @@ The breadcrumbs module is built to dynamically change to display only the final 
     <li class="last"><a href="#">Sub-Page Three</a></li>
 </ul>
 
-### Buttons
+## Buttons
 Here are a few button styles you get you started. We use these buttons to quickly prototype layouts. As those layouts mature, we revisit the button classes and customize them to fit our project needs.
 <div class="grd is-my1">
     <div class="row">
@@ -30,7 +40,7 @@ Here are a few button styles you get you started. We use these buttons to quickl
     </div>
 </div>
 
-### Forms
+## Forms
 <form action="" class="is-my1">
     <label for="name">Name</label>
     <input type="text" id="name" title="Input your name." placeholder="Your name...">
@@ -61,7 +71,7 @@ Here are a few button styles you get you started. We use these buttons to quickl
     <input type="submit" class="btn-round" value="Submit">
 </form>
 
-### Grid
+## Grid
 <div class="grd is-my1">
     <div class="row">
         <div class="col-1">
@@ -105,7 +115,7 @@ Here are a few button styles you get you started. We use these buttons to quickl
     </div>
 </div>
 
-### Media
+## Media
 <div class="media">
     <div class="media-figure">
         <img src="http://fillmurray.com/100/100" alt="Media Figure">

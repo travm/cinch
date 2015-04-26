@@ -1,4 +1,4 @@
-## Features
+# Features
 <div class="grd">
     <div class="row">
         <div class="col-2">
