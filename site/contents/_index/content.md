@@ -135,7 +135,7 @@ Here are a few button styles you get you started. We use these buttons to quickl
     </div>
 </div>
 
-### Tables
+## Tables
 Tables have remained one of the more difficult decisions to make when determining how to display them on smaller screens. With Cinch, we've opted to keep them as pure as possible, while still giving users on smaller devices the full functionality they expect.
 
 <div class="table">
