@@ -28,32 +28,32 @@ body {
 /* Typography */
 
 h1 {
-  font-size: 3.5em;
+  font-size: 2.75em;
 }
 
 h2 {
-  font-size: 2.5em;
-  color: rgb(51, 144, 225);
+  font-size: 2.25em;
+  color: rgb(171, 189, 211);
 }
 
 h3 {
   font-size: 1.75em;
-  color: rgb(51, 144, 225);
+  color: rgb(171, 189, 211);
 }
 
 h4 {
   font-size: 1.5em;
-  color: rgb(77, 158, 228);
+  color: rgb(182, 198, 217);
 }
 
 h5 {
   font-size: 1.25em;
-  color: rgb(102, 172, 232);
+  color: rgb(192, 206, 222);
 }
 
 h6 {
   font-size: 1em;
-  color: rgb(102, 172, 232);
+  color: rgb(192, 206, 222);
 }
 
 h1,
@@ -66,12 +66,8 @@ h6 {
   margin: 1em 0 0 0;
 }
 
-h1 + div {
-  margin-top: 2em;
-}
-
 a {
-  color: #0074D9;
+  color: #96ADC8;
 }
 
 p {
@@ -84,9 +80,9 @@ p.lead {
 }
 
 p > a {
-  color: #0074D9;
+  color: #96ADC8;
   text-decoration: none;
-  border-bottom: 1px solid #0074D9;
+  border-bottom: 1px solid #96ADC8;
 }
 
 del,
@@ -159,11 +155,11 @@ table {
 
 table > thead > tr {
   color: #FFFFFF;
-  background: #0074D9;
+  background: #96ADC8;
 }
 
 table > tbody > tr:nth-child(even) {
-  background: rgb(217, 234, 249);
+  background: rgb(239, 243, 247);
 }
 
 table th,
@@ -175,8 +171,7 @@ td {
 /* Forms */
 
 label {
-  margin: 0 0 .25em 0;
-  display: block;
+  margin: 0 .5em .25em 0;
 }
 
 input,
@@ -196,9 +191,14 @@ textarea {
   display: block;
 }
 
+input[type="radio"],
+input[type="checkbox"] {
+  margin: 0 .25em 0 0;
+}
+
 input:focus,
 textarea:focus {
-  outline-color: #7FDBFF;
+  outline-color: #D7FFAB;
 }
 
 /* Misc */
@@ -211,12 +211,12 @@ hr {
 }
 
 ::-moz-selection {
-  background: #7FDBFF;
+  background: #96ADC8;
   color: #FFFFFF;
 }
 
 ::selection {
-  background: #7FDBFF;
+  background: #96ADC8;
   color: #FFFFFF;
 }
 
@@ -278,7 +278,7 @@ hr {
 }
 
 .breadcrumbs > li > a {
-  color: #0074D9;
+  color: #96ADC8;
   text-decoration: none;
 }
 
@@ -299,53 +299,53 @@ hr {
 }
 
 .btn-ghost {
-  color: #0074D9;
+  color: #96ADC8;
   padding: 1.25em 2em;
   background: none;
-  box-shadow: inset 0px 0px 0px 2px #0074D9;
+  box-shadow: inset 0px 0px 0px 2px #96ADC8;
   border: none;
   border-radius: 4px;
 }
 
 .btn-ghost:hover {
   color: #FFFFFF;
-  background: #0074D9;
+  background: #96ADC8;
 }
 
 .btn-ghost:active {
-  background: rgb(51, 144, 225);
+  background: rgb(171, 189, 211);
 }
 
 .btn-round {
   color: #FFFFFF;
   padding: 1.25em 2em;
-  background: #0074D9;
+  background: #96ADC8;
   border: none;
   border-radius: 4px;
 }
 
 .btn-round:hover {
-  background: rgb(64, 151, 227);
+  background: rgb(176, 194, 214);
 }
 
 .btn-round:active {
-  background: rgb(38, 137, 223);
+  background: rgb(166, 185, 208);
 }
 
 .btn-pill {
   color: #FFFFFF;
   padding: 1.25em 2.5em;
-  background: #0074D9;
+  background: #96ADC8;
   border: none;
   border-radius: 2em;
 }
 
 .btn-pill:hover {
-  background: rgb(64, 151, 227);
+  background: rgb(176, 194, 214);
 }
 
 .btn-pill:active {
-  background: rgb(25, 130, 221);
+  background: rgb(161, 181, 206);
 }
 
 .btn-lg {
@@ -658,6 +658,16 @@ hr {
   /*************/
 }
 
+/*************/
+
+/* VARIABLES */
+
+/*************/
+
+:root {
+  /* Color Palette */
+}
+
 /********/
 
 /* BASE */
@@ -665,7 +675,7 @@ hr {
 /********/
 
 body {
-  font-family: "freight-sans-pro", sans-serif;
+  font: 400 16px "omnes-pro", sans-serif;
   height: 100%;
 }
 
@@ -678,10 +688,10 @@ body {
 /* Header */
 
 #header {
-  color: #FFFFFF;
+  color: #555;
   text-align: left;
   padding: 4em 0;
-  background: #0074D9;
+  background: #efffff;
 }
 
 /* Core */
@@ -689,10 +699,9 @@ body {
 /* Footer */
 
 #footer {
-  color: #fff;
   margin: 4em 0 0 0;
   padding: 2em 0;
-  background: #0074D9;
+  background: #efffff;
 }
 
 /***********/
@@ -704,7 +713,13 @@ body {
 /* Logo */
 
 .logo {
-  font-family: "azo-sans-uber", sans-serif;
-  font-weight: 300;
+  font-size: 3em;
+  font-weight: 400;
   margin: 0;
+}
+
+/* Period */
+
+.period {
+  color: #F012BE;
 }
