@@ -51,14 +51,14 @@
     }
 
     /* Typography */
-    h1 {font-size:3.5em;}
-    h2 {font-size:2.5em; color:color(var(--clr-pri) tint(20%));}
+    h1 {font-size:2.75em;}
+    h2 {font-size:2.25em; color:color(var(--clr-pri) tint(20%));}
     h3 {font-size:1.75em; color:color(var(--clr-pri) tint(20%));}
     h4 {font-size:1.5em; color:color(var(--clr-pri) tint(30%));}
     h5 {font-size:1.25em; color:color(var(--clr-pri) tint(40%));}
     h6 {font-size:1em; color:color(var(--clr-pri) tint(40%));}
     h1, h2, h3, h4, h5, h6 {font-weight:400; margin:1em 0 0 0;}
-    h1 + div {margin-top:2em;}
+    /* h1 + div {margin-top:2em;} */
 
     a {color:var(--clr-pri);}
     p {line-height:1.5;}

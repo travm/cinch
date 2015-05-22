@@ -57,8 +57,12 @@ Here are a few button styles you get you started. We use these buttons to quickl
         </div>
         <div class="col-2">
           <label for="gender">Gender</label>
-          <input type="radio" name="gender" title="Select male."> Male
-          <input type="radio" name="gender" title="Select female."> Female
+          <label>
+            <input type="radio" name="gender" title="Select male."> Male
+          </label>
+          <label>
+            <input type="radio" name="gender" title="Select female."> Female
+          </label>
         </div>
         <div class="col-2">
           <label for="agree">Agree</label>

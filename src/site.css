@@ -1,8 +1,19 @@
+/*************/
+/* VARIABLES */
+/*************/
+
+:root {
+    /* Color Palette */
+    --clr-pri: #96ADC8;
+    --clr-sec: #D7FFAB;
+    --clr-ter: #FCFF6C;
+}
+
 /********/
 /* BASE */
 /********/
 
-body {font-family:"freight-sans-pro", sans-serif; height:100%;}
+body {font:400 16px "omnes-pro", sans-serif; height:100%;}
 
 
 /**********/
@@ -10,7 +21,7 @@ body {font-family:"freight-sans-pro", sans-serif; height:100%;}
 /**********/
 
 /* Header */
-#header {color:var(--clrs-white); text-align:left; padding:4em 0; background:var(--clr-pri);}
+#header {color:#555; text-align:left; padding:4em 0; background:#efffff;}
 #header-content {}
 
 /* Core */
@@ -18,7 +29,7 @@ body {font-family:"freight-sans-pro", sans-serif; height:100%;}
 #core-content {}
 
 /* Footer */
-#footer {color:#fff; margin:4em 0 0 0; padding:2em 0; background:var(--clr-pri);}
+#footer {margin:4em 0 0 0; padding:2em 0; background:#efffff;}
 #footer-content {}
 
 
@@ -27,4 +38,7 @@ body {font-family:"freight-sans-pro", sans-serif; height:100%;}
 /***********/
 
 /* Logo */
-.logo {font-family:"azo-sans-uber", sans-serif; font-weight:300; margin:0;}
+.logo {font-size:3em; font-weight:400; margin:0;}
+
+/* Period */
+.period {color:var(--clrs-fuschia)}
