@@ -48,7 +48,7 @@ Here are a few button styles you get you started. We use these buttons to quickl
     <div class="grd">
       <div class="row">
         <div class="col-2">
-          <label for="category">Category</label>
+          <label for="category">Select: </label>
           <select name="category" id="category" title="Select a category.">
               <option value="0">Option One</option>
               <option value="1">Option Two</option>
@@ -56,17 +56,22 @@ Here are a few button styles you get you started. We use these buttons to quickl
           </select>
         </div>
         <div class="col-2">
-          <label for="gender">Gender</label>
-          <label>
-            <input type="radio" name="gender" title="Select male."> Male
+          <label for="radio">Radio: </label>
+          <label for="female">
+            <input type="radio" name="gender" id="female" title="Select female.">
+            Female
           </label>
-          <label>
-            <input type="radio" name="gender" title="Select female."> Female
+          <label for="male">
+            <input type="radio" name="gender" id="male" title="Select male.">
+            Male
           </label>
         </div>
         <div class="col-2">
-          <label for="agree">Agree</label>
-          <input type="checkbox" id="agree"> Do you agree?
+          <label for="checkbox">Checkbox: </label>
+          <label for="agree">
+            <input type="checkbox" id="agree">
+            Do you agree?
+          </label>
         </div>
       </div>
     </div>

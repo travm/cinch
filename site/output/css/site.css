@@ -66,8 +66,6 @@ h6 {
   margin: 1em 0 0 0;
 }
 
-/* h1 + div {margin-top:2em;} */
-
 a {
   color: #96ADC8;
 }
@@ -173,8 +171,7 @@ td {
 /* Forms */
 
 label {
-  margin: 0 0 .25em 0;
-  display: block;
+  margin: 0 .5em .25em 0;
 }
 
 input,
@@ -194,6 +191,11 @@ textarea {
   display: block;
 }
 
+input[type="radio"],
+input[type="checkbox"] {
+  margin: 0 .25em 0 0;
+}
+
 input:focus,
 textarea:focus {
   outline-color: #D7FFAB;
@@ -209,12 +211,12 @@ hr {
 }
 
 ::-moz-selection {
-  background: #D7FFAB;
+  background: #96ADC8;
   color: #FFFFFF;
 }
 
 ::selection {
-  background: #D7FFAB;
+  background: #96ADC8;
   color: #FFFFFF;
 }
 
