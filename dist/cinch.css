@@ -93,11 +93,11 @@
     table tr {}
     table > thead > tr {color:var(--clrs-white); background:var(--clr-pri);}
     table > tbody > tr:nth-child(even) {background:color(var(--clr-pri) tint(85%));}
-    table th, td {text-align:left; padding:.75em 1em;}
+    table th, td {text-align:left; padding:.75em 1em; white-space:nowrap;}
 
     /* Forms */
     label {margin:0 .5em .25em 0;}
-    input, textarea, select {margin:0 0 1em 0; box-sizing:border-box;}
+    input, textarea {margin:0 0 1em 0; box-sizing:border-box;}
     input[type="text"], textarea {
         font-size:1em;
         font-family:sans-serif;
@@ -107,7 +107,7 @@
         display:block;
     }
     input[type="radio"], input[type="checkbox"] {margin:0 .25em 0 0;}
-    input:focus, textarea:focus {outline-color:var(--clr-sec);}
+    input:focus, textarea:focus {outline-color:var(--clr-pri);}
 
     /* Misc */
     hr {height:0; margin:1em 0; border:none; border-bottom:1px solid rgba(0,0,0,0.5);}
@@ -212,14 +212,12 @@
     .hero {}
     .hero-content {}
 
-    /* List Chain */
-    .list-chain {list-style:none; margin:0; padding:0;}
-    .list-chain li {margin:0 1.5em 0 0; display:inline-block}
-    .list-chain li:last-child {margin-right:0;}
-
-    /* List Stack */
-    .list-stack {list-style:none; margin:0; padding:0;}
-    .list-stack li {}
+    /* List */
+    .list {list-style:none; margin:0; padding:0;}
+    .list li {margin:0 0 .5em 0; display:block}
+    .list li:last-child {margin-bottom:0;}
+    .list.inline li {width:100%; margin:0 .5em 0 0; display:inline-block}
+    .list.inline li:last-child {margin-right:0;}
 
     /* Measure */
     .measure {width:80%; max-width:800px; margin:0 auto;}
@@ -230,8 +228,27 @@
     .media-figure > img {width:100%;}
     .media-body {padding:0; overflow:hidden;}
 
+    /* Margin */
+    .m0 {margin:0;}
+    .m1 {margin:1em;}
+    .mx1 {margin:0 1em;}
+    .my1 {margin:1em 0;}
+    .m2 {margin:2em;}
+    .mx2 {margin:0 2em;}
+    .my2 {margin:2em 0;}
+
+    /* Padding */
+    .p0 {padding:0;}
+    .p1 {padding:1em;}
+    .px1 {padding:0 1em;}
+    .py1 {padding:1em 0;}
+    .p2 {padding:2em;}
+    .px2 {padding:0 2em;}
+    .py2 {padding:2em 0;}
+
     /* Table */
     .table {overflow-x:auto;}
+    
 
 /*************/
 /* MODIFIERS */
@@ -244,24 +261,6 @@
     .is-expanded {max-height:1000px; transition: all ease 0.5s;}
     .is-transparent {opacity:0; transition: opacity ease 0.5s;}
     .is-opaque {opacity:1; transition: opacity ease 0.5s;}
-
-    /* Padding */
-    .is-p0 {padding:0;}
-    .is-p1 {padding:1em;}
-    .is-px1 {padding:0 1em;}
-    .is-py1 {padding:1em 0;}
-    .is-p2 {padding:2em;}
-    .is-px2 {padding:0 2em;}
-    .is-py2 {padding:2em 0;}
-
-    /* Margin */
-    .is-m0 {margin:0;}
-    .is-m1 {margin:1em;}
-    .is-mx1 {margin:0 1em;}
-    .is-my1 {margin:1em 0;}
-    .is-m2 {margin:2em;}
-    .is-mx2 {margin:0 2em;}
-    .is-my2 {margin:2em 0;}
 
     /* Color */
     .is-bg-white {background:var(--clrs-white);}
@@ -306,6 +305,9 @@
     .grd > .row > .col-4 {width:66.66666666666668%;}
     .grd > .row > .col-5 {width:83.33333333333335%;}
     .grd > .row > .col-6 {width:100%;}
+
+    /* List */
+    .list.inline > li {width:auto;}
 
     /*************/
     /* MODIFIERS */

@@ -166,6 +166,7 @@ table th,
 td {
   text-align: left;
   padding: .75em 1em;
+  white-space: nowrap;
 }
 
 /* Forms */
@@ -175,8 +176,7 @@ label {
 }
 
 input,
-textarea,
-select {
+textarea {
   margin: 0 0 1em 0;
   box-sizing: border-box;
 }
@@ -198,7 +198,7 @@ input[type="checkbox"] {
 
 input:focus,
 textarea:focus {
-  outline-color: #D7FFAB;
+  outline-color: #96ADC8;
 }
 
 /* Misc */
@@ -400,29 +400,31 @@ hr {
 
 /* Hero */
 
-/* List Chain */
+/* List */
 
-.list-chain {
+.list {
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
-.list-chain li {
-  margin: 0 1.5em 0 0;
+.list li {
+  margin: 0 0 .5em 0;
+  display: block;
+}
+
+.list li:last-child {
+  margin-bottom: 0;
+}
+
+.list.inline li {
+  width: 100%;
+  margin: 0 .5em 0 0;
   display: inline-block;
 }
 
-.list-chain li:last-child {
+.list.inline li:last-child {
   margin-right: 0;
-}
-
-/* List Stack */
-
-.list-stack {
-  list-style: none;
-  margin: 0;
-  padding: 0;
 }
 
 /* Measure */
@@ -454,6 +456,66 @@ hr {
 .media-body {
   padding: 0;
   overflow: hidden;
+}
+
+/* Margin */
+
+.m0 {
+  margin: 0;
+}
+
+.m1 {
+  margin: 1em;
+}
+
+.mx1 {
+  margin: 0 1em;
+}
+
+.my1 {
+  margin: 1em 0;
+}
+
+.m2 {
+  margin: 2em;
+}
+
+.mx2 {
+  margin: 0 2em;
+}
+
+.my2 {
+  margin: 2em 0;
+}
+
+/* Padding */
+
+.p0 {
+  padding: 0;
+}
+
+.p1 {
+  padding: 1em;
+}
+
+.px1 {
+  padding: 0 1em;
+}
+
+.py1 {
+  padding: 1em 0;
+}
+
+.p2 {
+  padding: 2em;
+}
+
+.px2 {
+  padding: 0 2em;
+}
+
+.py2 {
+  padding: 2em 0;
 }
 
 /* Table */
@@ -496,66 +558,6 @@ hr {
 .is-opaque {
   opacity: 1;
   transition: opacity ease 0.5s;
-}
-
-/* Padding */
-
-.is-p0 {
-  padding: 0;
-}
-
-.is-p1 {
-  padding: 1em;
-}
-
-.is-px1 {
-  padding: 0 1em;
-}
-
-.is-py1 {
-  padding: 1em 0;
-}
-
-.is-p2 {
-  padding: 2em;
-}
-
-.is-px2 {
-  padding: 0 2em;
-}
-
-.is-py2 {
-  padding: 2em 0;
-}
-
-/* Margin */
-
-.is-m0 {
-  margin: 0;
-}
-
-.is-m1 {
-  margin: 1em;
-}
-
-.is-mx1 {
-  margin: 0 1em;
-}
-
-.is-my1 {
-  margin: 1em 0;
-}
-
-.is-m2 {
-  margin: 2em;
-}
-
-.is-mx2 {
-  margin: 0 2em;
-}
-
-.is-my2 {
-  margin: 2em 0;
 }
 
 /* Color */
@@ -649,6 +651,12 @@ hr {
 
   .grd > .row > .col-6 {
     width: 100%;
+  }
+
+  /* List */
+
+  .list.inline > li {
+    width: auto;
   }
 
   /*************/

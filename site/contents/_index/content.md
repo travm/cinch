@@ -23,9 +23,11 @@ A small collection of common button styles for quick prototyping. As your layout
     <div class="row">
         <div class="col-6">
             <h6>Base Size</h6>
-            <button class="btn-ghost">Ghost Button</button>
-            <button class="btn-round">Rounded Button</button>
-            <button class="btn-pill">Pill Button</button>
+            <ul class="list inline my1">
+              <li><button class="btn-ghost">Ghost Button</button></li>
+              <li><button class="btn-round">Rounded Button</button></li>
+              <li><button class="btn-pill">Pill Button</button></li>
+            </ul>
         </div>
     </div>
 </div>
@@ -33,9 +35,11 @@ A small collection of common button styles for quick prototyping. As your layout
     <div class="row">
         <div class="col-6">
             <h6>Large Alternative</h6>
-            <button class="btn-ghost btn-lg">Ghost Button</button>
-            <button class="btn-round btn-lg">Rounded Button</button>
-            <button class="btn-pill btn-lg">Pill Button</button>
+            <ul class="list inline my1">
+              <li><button class="btn-ghost btn-lg">Ghost Button</button></li>
+              <li><button class="btn-round btn-lg">Rounded Button</button></li>
+              <li><button class="btn-pill btn-lg">Pill Button</button></li>
+            </ul>
         </div>
     </div>
 </div>
@@ -145,7 +149,7 @@ A small collection of common button styles for quick prototyping. As your layout
 </div>
 
 ## Tables
-Tables have remained one of the more difficult decisions to make when determining how to display them on smaller screens. With Cinch, we've opted to keep them as pure as possible, while still giving users on smaller devices the full functionality they expect.
+Tables have remained one of the more difficult elements to style when developing for smaller screens. Cinch aims to keep tables as pure as possible and deliver the full table to the user no matter what device they are on. This clean and functional design is a great base that you can easily build upon using more sophisticated ways of handling tables on smaller devices.
 
 <div class="table">
     <table>

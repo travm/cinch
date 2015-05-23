@@ -17,7 +17,7 @@ Cinch is a CSS micro-framework designed to get your project _started_ on the rig
 </div>
 
 ### Requirements
-Cinch is built with cutting edge CSS features such as variables and color manipulation that are still being finalized. Until they are completed, Cinch requires a pre-processor that can "translate" those features to code that a browser can understand today. The great benefit of writing future spec-compliant code is that as these features are finalized, you will be able to remove the processor altogether and your code can be read natively in the browser instead.
+Cinch is built with cutting edge CSS features such as variables and color manipulation that are still being finalized in the official spec. Until they are completed, Cinch requires a pre-processor that can "translate" those features to code that a browser can understand today. The great benefit of writing future spec-compliant code is that as these features are finalized, you will be able to remove the processor altogether and your code can be read natively in the browser instead.
 
 We recommend <a href="http://myth.io">Myth</a> to handle your pre-processing and we'll show you how to get everything up and running.
 
