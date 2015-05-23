@@ -18,7 +18,7 @@ The breadcrumbs module is built to dynamically change to display only the final 
 </ul>
 
 ## Buttons
-Here are a few button styles you get you started. We use these buttons to quickly prototype layouts. As those layouts mature, we revisit the button classes and customize them to fit our project needs.
+A small collection of common button styles for quick prototyping. As your layout matures, simply revisit these styles and modify them to suit your project's needs.
 <div class="grd is-my1">
     <div class="row">
         <div class="col-6">

@@ -1,8 +1,5 @@
-## How To Use
-
-Cinch was built as a boilerplate for you projects. However, it can easily be
-used as a library as well. We'll guide you through both paths to get you
-started.
+## Getting Started
+Cinch is a CSS micro-framework designed to get your project _started_ on the right track. As your project matures, your CSS should grow and adapt to your projects needs. Cinch is not a library of CSS classes, it is a solid foundation intended to grow with your project and keep it organized, clean, and efficient.
 
 <div class="grd">
     <div class="row">
@@ -20,9 +17,9 @@ started.
 </div>
 
 ### Requirements
-Cinch is built to use Myth by default, so Myth will be necessary to process all
-of the CSS Variables we have included. Luckily, Myth is very simple to install
-and to use.
+Cinch is built with cutting edge CSS features such as variables and color manipulation that are still being finalized. Until they are completed, Cinch requires a pre-processor that can "translate" those features to code that a browser can understand today. The great benefit of writing future spec-compliant code is that as these features are finalized, you will be able to remove the processor altogether and your code can be read natively in the browser instead.
+
+We recommend <a href="http://myth.io">Myth</a> to handle your pre-processing and we'll show you how to get everything up and running.
 
 #### Installing Myth
 
@@ -37,4 +34,4 @@ If you are familiar with similar pre-processors such as Sass or Less, then you'l
 myth input.css output.css -c -w
 ```
 
-> This code specifies the input and output files, and additionally instructs Myth to compress the output and watch for any future changes to our input.
+This code specifies the input and output files, and additionally instructs Myth to compress the output and watch for any future changes to our input.

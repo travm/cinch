@@ -198,7 +198,7 @@
     /* Grid */
     .grd {overflow:hidden;}
     .grd > .row {overflow:hidden;}
-    .grd > .row > [class*="col-"] {margin:0 0 1em 0;}
+    .grd > .row > [class*="col-"] {margin:0 0 2em 0;}
     .grd > .row > [class*="col-"]:first-of-type {padding-left:0;}
     .grd > .row > [class*="col-"]:last-of-type {padding-right:0;}
     .grd > .row > .col-1 {width:100%;}
@@ -297,7 +297,7 @@
 
     /* Grids */
     .grd > .row {}
-    .grd > .row > [class*="col-"] {padding:0 .5em; box-sizing:border-box; float:left;}
+    .grd > .row > [class*="col-"] {padding:0 1em; box-sizing:border-box; float:left;}
     .grd > .row > [class*="col-"]:first-of-type {padding-left:0;}
     .grd > .row > [class*="col-"]:last-of-type {padding-right:0;}
     .grd > .row > .col-1 {width:16.66666666666667%;}
