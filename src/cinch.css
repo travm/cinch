@@ -160,6 +160,7 @@
         box-sizing:border-box;
         cursor:pointer;
         display:inline-block;
+        outline:none;
     }
 
     .btn-ghost {
@@ -171,6 +172,7 @@
         border-radius:4px;
     }
     .btn-ghost:hover {color:var(--clrs-white); background:var(--clr-pri);}
+    .btn-ghost:focus {color:var(--clrs-white); background:var(--clr-pri);}
     .btn-ghost:active {background:color(var(--clr-pri) tint(20%));}
 
     .btn-round {
@@ -181,6 +183,7 @@
         border-radius:4px;
     }
     .btn-round:hover {background:color(var(--clr-pri) tint(25%));}
+    .btn-round:focus {background:color(var(--clr-pri) tint(25%));}
     .btn-round:active {background:color(var(--clr-pri) tint(15%));}
 
     .btn-pill {
@@ -191,6 +194,7 @@
         border-radius:2em;
     }
     .btn-pill:hover {background:color(var(--clr-pri) tint(25%));}
+    .btn-pill:focus {background:color(var(--clr-pri) tint(25%));}
     .btn-pill:active {background:color(var(--clr-pri) tint(10%));}
 
     .btn-lg {font-size:1em;}
@@ -248,7 +252,7 @@
 
     /* Table */
     .table {overflow-x:auto;}
-    
+    clea
 
 /*************/
 /* MODIFIERS */
