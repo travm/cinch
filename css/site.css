@@ -296,6 +296,7 @@ hr {
   box-sizing: border-box;
   cursor: pointer;
   display: inline-block;
+  outline: none;
 }
 
 .btn-ghost {
@@ -308,6 +309,11 @@ hr {
 }
 
 .btn-ghost:hover {
+  color: #FFFFFF;
+  background: #96ADC8;
+}
+
+.btn-ghost:focus {
   color: #FFFFFF;
   background: #96ADC8;
 }
@@ -328,6 +334,10 @@ hr {
   background: rgb(176, 194, 214);
 }
 
+.btn-round:focus {
+  background: rgb(176, 194, 214);
+}
+
 .btn-round:active {
   background: rgb(166, 185, 208);
 }
@@ -341,6 +351,10 @@ hr {
 }
 
 .btn-pill:hover {
+  background: rgb(176, 194, 214);
+}
+
+.btn-pill:focus {
   background: rgb(176, 194, 214);
 }
 
@@ -524,15 +538,14 @@ hr {
   overflow-x: auto;
 }
 
-/*************/
-
-/* MODIFIERS */
+clea
 
 /*************/
 
-/* Visibility */
+/*************/
 
-.is-hidden {
+    
+    .is-hidden {
   display: none !important;
 }
 
