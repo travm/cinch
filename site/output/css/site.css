@@ -187,7 +187,8 @@ textarea {
   font-family: sans-serif;
   width: 100%;
   padding: .5em;
-  border: thin solid #DDDDDD;
+  border: thin solid #96ADC8;
+  border-radius: 3px;
   display: block;
 }
 
@@ -538,14 +539,15 @@ hr {
   overflow-x: auto;
 }
 
-clea
+/*************/
+
+/* MODIFIERS */
 
 /*************/
 
-/*************/
+/* Visibility */
 
-    
-    .is-hidden {
+.is-hidden {
   display: none !important;
 }
 

@@ -19,7 +19,7 @@ The breadcrumbs module is built to dynamically change to display only the final 
 
 ## Buttons
 A small collection of common button styles for quick prototyping. As your layout matures, simply revisit these styles and modify them to suit your project's needs.
-<div class="grd is-my1">
+<div class="grd">
     <div class="row">
         <div class="col-6">
             <h6>Base Size</h6>
@@ -31,7 +31,7 @@ A small collection of common button styles for quick prototyping. As your layout
         </div>
     </div>
 </div>
-<div class="grd is-my1">
+<div class="grd">
     <div class="row">
         <div class="col-6">
             <h6>Large Alternative</h6>
@@ -45,7 +45,7 @@ A small collection of common button styles for quick prototyping. As your layout
 </div>
 
 ## Forms
-<form action="" class="is-my1">
+<form action="" class="my1">
     <label for="name">Name</label>
     <input type="text" id="name" title="Input your name." placeholder="Your name...">
 
@@ -85,7 +85,7 @@ A small collection of common button styles for quick prototyping. As your layout
 </form>
 
 ## Grid
-<div class="grd is-my1">
+<div class="grd my1">
     <div class="row">
         <div class="col-1">
             <div class="box">.col-1</div>
@@ -134,7 +134,7 @@ A small collection of common button styles for quick prototyping. As your layout
         <img src="http://fillmurray.com/100/100" alt="Media Figure">
     </div>
     <div class="media-body">
-        <h6 class="is-m0">Hello World</h6>
+        <h6 class="m0">Hello World</h6>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat tempora ipsam eos sunt dolore, dolor laudantium blanditiis veritatis ut distinctio temporibus voluptates magnam, minima. Obcaecati voluptate deleniti earum quis minima!</p>
     </div>
 </div>
@@ -143,7 +143,7 @@ A small collection of common button styles for quick prototyping. As your layout
         <img src="http://fillmurray.com/100/100" alt="Media Figure">
     </div>
     <div class="media-body">
-        <h6 class="is-m0">Hello World</h6>
+        <h6 class="m0">Hello World</h6>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat tempora ipsam eos sunt dolore, dolor laudantium blanditiis veritatis ut distinctio temporibus voluptates magnam, minima. Obcaecati voluptate deleniti earum quis minima!</p>
     </div>
 </div>

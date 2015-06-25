@@ -103,7 +103,8 @@
         font-family:sans-serif;
         width:100%;
         padding:.5em;
-        border:thin solid var(--clrs-silver);
+        border:thin solid var(--clr-pri);
+        border-radius:3px;
         display:block;
     }
     input[type="radio"], input[type="checkbox"] {margin:0 .25em 0 0;}
@@ -252,7 +253,7 @@
 
     /* Table */
     .table {overflow-x:auto;}
-    clea
+
 
 /*************/
 /* MODIFIERS */
