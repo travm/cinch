@@ -33,27 +33,27 @@ h1 {
 
 h2 {
   font-size: 2.25em;
-  color: rgb(171, 189, 211);
+  color: rgb(159, 167, 177);
 }
 
 h3 {
   font-size: 1.75em;
-  color: rgb(171, 189, 211);
+  color: rgb(159, 167, 177);
 }
 
 h4 {
   font-size: 1.5em;
-  color: rgb(182, 198, 217);
+  color: rgb(171, 178, 187);
 }
 
 h5 {
   font-size: 1.25em;
-  color: rgb(192, 206, 222);
+  color: rgb(183, 189, 197);
 }
 
 h6 {
   font-size: 1em;
-  color: rgb(192, 206, 222);
+  color: rgb(183, 189, 197);
 }
 
 h1,
@@ -67,7 +67,7 @@ h6 {
 }
 
 a {
-  color: #96ADC8;
+  color: #87919E;
 }
 
 p {
@@ -80,9 +80,9 @@ p.lead {
 }
 
 p > a {
-  color: #96ADC8;
+  color: #87919E;
   text-decoration: none;
-  border-bottom: 1px solid #96ADC8;
+  border-bottom: 1px solid #87919E;
 }
 
 del,
@@ -155,11 +155,11 @@ table {
 
 table > thead > tr {
   color: #FFFFFF;
-  background: #96ADC8;
+  background: #87919E;
 }
 
 table > tbody > tr:nth-child(even) {
-  background: rgb(239, 243, 247);
+  background: rgb(237, 239, 240);
 }
 
 table th,
@@ -187,7 +187,7 @@ textarea {
   font-family: sans-serif;
   width: 100%;
   padding: .5em;
-  border: thin solid #96ADC8;
+  border: thin solid #87919E;
   border-radius: 3px;
   display: block;
 }
@@ -199,7 +199,7 @@ input[type="checkbox"] {
 
 input:focus,
 textarea:focus {
-  outline-color: #96ADC8;
+  outline-color: #87919E;
 }
 
 /* Misc */
@@ -212,12 +212,12 @@ hr {
 }
 
 ::-moz-selection {
-  background: #96ADC8;
+  background: #87919E;
   color: #FFFFFF;
 }
 
 ::selection {
-  background: #96ADC8;
+  background: #87919E;
   color: #FFFFFF;
 }
 
@@ -279,7 +279,7 @@ hr {
 }
 
 .breadcrumbs > li > a {
-  color: #96ADC8;
+  color: #87919E;
   text-decoration: none;
 }
 
@@ -301,66 +301,66 @@ hr {
 }
 
 .btn-ghost {
-  color: #96ADC8;
+  color: #87919E;
   padding: 1.25em 2em;
   background: none;
-  box-shadow: inset 0px 0px 0px 2px #96ADC8;
+  box-shadow: inset 0px 0px 0px 2px #87919E;
   border: none;
   border-radius: 4px;
 }
 
 .btn-ghost:hover {
   color: #FFFFFF;
-  background: #96ADC8;
+  background: #87919E;
 }
 
 .btn-ghost:focus {
   color: #FFFFFF;
-  background: #96ADC8;
+  background: #87919E;
 }
 
 .btn-ghost:active {
-  background: rgb(171, 189, 211);
+  background: rgb(159, 167, 177);
 }
 
 .btn-round {
   color: #FFFFFF;
-  padding: 1.25em 2em;
-  background: #96ADC8;
+  padding: 1.25em 2.5em;
+  background: #87919E;
   border: none;
   border-radius: 4px;
 }
 
 .btn-round:hover {
-  background: rgb(176, 194, 214);
+  background: rgb(165, 173, 182);
 }
 
 .btn-round:focus {
-  background: rgb(176, 194, 214);
+  background: rgb(165, 173, 182);
 }
 
 .btn-round:active {
-  background: rgb(166, 185, 208);
+  background: rgb(153, 162, 173);
 }
 
 .btn-pill {
   color: #FFFFFF;
-  padding: 1.25em 2.5em;
-  background: #96ADC8;
+  padding: 1.25em 2em;
+  background: #87919E;
   border: none;
   border-radius: 2em;
 }
 
 .btn-pill:hover {
-  background: rgb(176, 194, 214);
+  background: rgb(165, 173, 182);
 }
 
 .btn-pill:focus {
-  background: rgb(176, 194, 214);
+  background: rgb(165, 173, 182);
 }
 
 .btn-pill:active {
-  background: rgb(161, 181, 206);
+  background: rgb(147, 156, 168);
 }
 
 .btn-lg {
@@ -412,8 +412,6 @@ hr {
 .grd > .row > .col-6 {
   width: 100%;
 }
-
-/* Hero */
 
 /* List */
 
@@ -605,12 +603,6 @@ hr {
     border-left: 5px solid #DDDDDD;
   }
 
-  /**********/
-
-  /* LAYOUT */
-
-  /**********/
-
   /***********/
 
   /* MODULES */
@@ -673,12 +665,6 @@ hr {
   .list.inline > li {
     width: auto;
   }
-
-  /*************/
-
-  /* MODIFIERS */
-
-  /*************/
 }
 
 /*************/
@@ -711,10 +697,10 @@ body {
 /* Header */
 
 #header {
-  color: #555;
+  color: #fff;
   text-align: left;
   padding: 4em 0;
-  background: #efffff;
+  background: #87919E;
 }
 
 /* Core */
@@ -722,9 +708,10 @@ body {
 /* Footer */
 
 #footer {
+  color: #fff;
   margin: 4em 0 0 0;
   padding: 2em 0;
-  background: #efffff;
+  background: #87919E;
 }
 
 /***********/
@@ -744,5 +731,11 @@ body {
 /* Period */
 
 .period {
-  color: #F012BE;
+  color: #A3D5FF;
+}
+
+/* Version */
+
+.version {
+  color: #A3D5FF;
 }

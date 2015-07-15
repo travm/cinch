@@ -4,9 +4,9 @@
 
 :root {
     /* Color Palette */
-    --clr-pri: #96ADC8;
-    --clr-sec: #D7FFAB;
-    --clr-ter: #D7FFAB;
+    --clr-pri: #87919E;
+    --clr-sec: #A3D5FF;
+    --clr-ter: #BE759E;
 }
 
 
@@ -22,7 +22,7 @@ body {font:400 16px "omnes-pro", sans-serif; height:100%;}
 /**********/
 
 /* Header */
-#header {color:#555; text-align:left; padding:4em 0; background:#efffff;}
+#header {color:#fff; text-align:left; padding:4em 0; background:#87919E;}
 #header-content {}
 
 /* Core */
@@ -30,7 +30,7 @@ body {font:400 16px "omnes-pro", sans-serif; height:100%;}
 #core-content {}
 
 /* Footer */
-#footer {margin:4em 0 0 0; padding:2em 0; background:#efffff;}
+#footer {color:#fff; margin:4em 0 0 0; padding:2em 0; background:#87919E;}
 #footer-content {}
 
 
@@ -42,4 +42,7 @@ body {font:400 16px "omnes-pro", sans-serif; height:100%;}
 .logo {font-size:3em; font-weight:400; margin:0;}
 
 /* Period */
-.period {color:var(--clrs-fuschia)}
+.period {color:var(--clr-sec);}
+
+/* Version */
+.version {color:var(--clr-sec)}
