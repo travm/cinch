@@ -38,11 +38,11 @@ body {font:400 16px "omnes-pro", sans-serif; height:100%;}
 /* MODULES */
 /***********/
 
+/* Accent */
+.accent {color:var(--clrs-fuschia); font-weight:700;}
+
+/* Grid */
+.grd.demo > .row > [class*="col-"] {margin:0 0 2em 0;}
+
 /* Logo */
 .logo {font-size:3em; font-weight:400; margin:0;}
-
-/* Period */
-.period {color:var(--clrs-fuschia);}
-
-/* Version */
-.version {color:var(--clrs-fuschia);}

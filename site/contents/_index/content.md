@@ -19,30 +19,18 @@ The breadcrumbs module is built to dynamically change to display only the final 
 
 ## Buttons
 A small collection of common button styles for quick prototyping. As your layout matures, simply revisit these styles and modify them to suit your project's needs.
-<div class="grd">
-    <div class="row">
-        <div class="col-6">
-            <h6>Base Size</h6>
-            <ul class="list inline my1">
-              <li><button class="btn-ghost">Ghost Button</button></li>
-              <li><button class="btn-round">Rounded Button</button></li>
-              <li><button class="btn-pill">Pill Button</button></li>
-            </ul>
-        </div>
-    </div>
-</div>
-<div class="grd">
-    <div class="row">
-        <div class="col-6">
-            <h6>Large Alternative</h6>
-            <ul class="list inline my1">
-              <li><button class="btn-ghost btn-lg">Ghost Button</button></li>
-              <li><button class="btn-round btn-lg">Rounded Button</button></li>
-              <li><button class="btn-pill btn-lg">Pill Button</button></li>
-            </ul>
-        </div>
-    </div>
-</div>
+<h6>Base Size</h6>
+<ul class="list inline my1">
+  <li><button class="btn-ghost">Ghost Button</button></li>
+  <li><button class="btn-round">Rounded Button</button></li>
+  <li><button class="btn-pill">Pill Button</button></li>
+</ul>
+<h6>Large Alternative</h6>
+<ul class="list inline my1">
+  <li><button class="btn-ghost btn-lg">Ghost Button</button></li>
+  <li><button class="btn-round btn-lg">Rounded Button</button></li>
+  <li><button class="btn-pill btn-lg">Pill Button</button></li>
+</ul>
 
 ## Forms
 <form action="" class="my1">
@@ -51,41 +39,47 @@ A small collection of common button styles for quick prototyping. As your layout
 
     <div class="grd">
       <div class="row">
-        <div class="col-2">
+        <div class="col-2 my1">
           <label for="category">Select: </label>
-          <select name="category" id="category" title="Select a category.">
-              <option value="0">Option One</option>
-              <option value="1">Option Two</option>
-              <option value="2">Option Three</option>
-          </select>
+          <fieldset>
+              <select name="category" id="category" title="Select a category.">
+                  <option value="0">Option One</option>
+                  <option value="1">Option Two</option>
+                  <option value="2">Option Three</option>
+              </select>
+          </fieldset>
         </div>
-        <div class="col-2">
+        <div class="col-2 my1">
           <label for="radio">Radio: </label>
-          <label for="female">
-            <input type="radio" name="gender" id="female" title="Select female.">
-            Female
-          </label>
-          <label for="male">
-            <input type="radio" name="gender" id="male" title="Select male.">
-            Male
-          </label>
+          <fieldset>
+              <label for="female">
+                <input type="radio" name="gender" id="female" title="Select female.">
+                Female
+              </label>
+              <label for="male">
+                <input type="radio" name="gender" id="male" title="Select male.">
+                Male
+              </label>
+          </fieldset>
         </div>
-        <div class="col-2">
+        <div class="col-2 my1">
           <label for="checkbox">Checkbox: </label>
-          <label for="agree">
-            <input type="checkbox" id="agree">
-            Do you agree?
-          </label>
+          <fieldset>
+              <label for="agree">
+                <input type="checkbox" id="agree">
+                Do you agree?
+              </label>
+          </fieldset>
         </div>
       </div>
     </div>
     <label for="message">Message</label>
     <textarea name="message" id="message" cols="30" rows="10" placeholder="Your message..."></textarea>
-    <input type="submit" class="btn-round" value="Submit">
+    <input type="submit" class="btn-round my1" value="Submit">
 </form>
 
 ## Grid
-<div class="grd my1">
+<div class="grd demo my1">
     <div class="row">
         <div class="col-1">
             <div class="box">.col-1</div>

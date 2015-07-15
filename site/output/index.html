@@ -37,7 +37,7 @@
 
     <header id="header">
         <div class="measure">
-            <h1 class="logo">Cinch<span class="period">.</span></h1>
+            <h1 class="logo">Cinch<span class="accent">.</span></h1>
             <p>A simple, pure, and efficient CSS micro-framework.</p>
         </div>
     </header>
@@ -80,30 +80,18 @@
 
 <h2 id="buttons">Buttons</h2>
 <p>A small collection of common button styles for quick prototyping. As your layout matures, simply revisit these styles and modify them to suit your project&#39;s needs.</p>
-<div class="grd">
-    <div class="row">
-        <div class="col-6">
-            <h6>Base Size</h6>
-            <ul class="list inline my1">
-              <li><button class="btn-ghost">Ghost Button</button></li>
-              <li><button class="btn-round">Rounded Button</button></li>
-              <li><button class="btn-pill">Pill Button</button></li>
-            </ul>
-        </div>
-    </div>
-</div>
-<div class="grd">
-    <div class="row">
-        <div class="col-6">
-            <h6>Large Alternative</h6>
-            <ul class="list inline my1">
-              <li><button class="btn-ghost btn-lg">Ghost Button</button></li>
-              <li><button class="btn-round btn-lg">Rounded Button</button></li>
-              <li><button class="btn-pill btn-lg">Pill Button</button></li>
-            </ul>
-        </div>
-    </div>
-</div>
+<p><h6>Base Size</h6></p>
+<ul class="list inline my1">
+  <li><button class="btn-ghost">Ghost Button</button></li>
+  <li><button class="btn-round">Rounded Button</button></li>
+  <li><button class="btn-pill">Pill Button</button></li>
+</ul>
+<h6>Large Alternative</h6>
+<ul class="list inline my1">
+  <li><button class="btn-ghost btn-lg">Ghost Button</button></li>
+  <li><button class="btn-round btn-lg">Rounded Button</button></li>
+  <li><button class="btn-pill btn-lg">Pill Button</button></li>
+</ul>
 
 <h2 id="forms">Forms</h2>
 <form action="" class="my1">
@@ -112,41 +100,47 @@
 
     <div class="grd">
       <div class="row">
-        <div class="col-2">
+        <div class="col-2 my1">
           <label for="category">Select: </label>
-          <select name="category" id="category" title="Select a category.">
-              <option value="0">Option One</option>
-              <option value="1">Option Two</option>
-              <option value="2">Option Three</option>
-          </select>
+          <fieldset>
+              <select name="category" id="category" title="Select a category.">
+                  <option value="0">Option One</option>
+                  <option value="1">Option Two</option>
+                  <option value="2">Option Three</option>
+              </select>
+          </fieldset>
         </div>
-        <div class="col-2">
+        <div class="col-2 my1">
           <label for="radio">Radio: </label>
-          <label for="female">
-            <input type="radio" name="gender" id="female" title="Select female.">
-            Female
-          </label>
-          <label for="male">
-            <input type="radio" name="gender" id="male" title="Select male.">
-            Male
-          </label>
+          <fieldset>
+              <label for="female">
+                <input type="radio" name="gender" id="female" title="Select female.">
+                Female
+              </label>
+              <label for="male">
+                <input type="radio" name="gender" id="male" title="Select male.">
+                Male
+              </label>
+          </fieldset>
         </div>
-        <div class="col-2">
+        <div class="col-2 my1">
           <label for="checkbox">Checkbox: </label>
-          <label for="agree">
-            <input type="checkbox" id="agree">
-            Do you agree?
-          </label>
+          <fieldset>
+              <label for="agree">
+                <input type="checkbox" id="agree">
+                Do you agree?
+              </label>
+          </fieldset>
         </div>
       </div>
     </div>
     <label for="message">Message</label>
     <textarea name="message" id="message" cols="30" rows="10" placeholder="Your message..."></textarea>
-    <input type="submit" class="btn-round" value="Submit">
+    <input type="submit" class="btn-round my1" value="Submit">
 </form>
 
 <h2 id="grid">Grid</h2>
-<div class="grd my1">
+<div class="grd demo my1">
     <div class="row">
         <div class="col-1">
             <div class="box">.col-1</div>
@@ -254,7 +248,7 @@
 
 		<footer id="footer">
 			<div class="measure">
-				<p><span class="logo">Cinch</span> <span class="version">v0.0.1</span></p>
+				<p><span class="logo">Cinch</span> <span class="accent">v0.1.0</span></p>
 			</div>
 		</footer>
 

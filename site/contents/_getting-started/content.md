@@ -5,12 +5,12 @@ Cinch is a CSS micro-framework designed to get your project _started_ on the rig
     <div class="row">
         <div class="col col-3 is-px2">
             <h3>Boilerplate</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <p>The boilerplate is the unminfied source that can be used as a base for your next project. If you like what you've see, then it's time to get started!</p>
             <a class="btn-round" href="#">Download Boilerplate</a>
         </div>
         <div class="col col-3">
             <h3>Library</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <p>While this is not recommended, you can also use Cinch like a more traditional framework that you build on top of. This file comes fully minified and pre-processed.</p>
             <a class="btn-round" href="#">Download Library </a>
         </div>
     </div>

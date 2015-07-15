@@ -164,6 +164,7 @@ table > tbody > tr:nth-child(even) {
 
 table th,
 td {
+  font-weight: 400;
   text-align: left;
   padding: .75em 1em;
   white-space: nowrap;
@@ -175,9 +176,16 @@ label {
   margin: 0 .5em .25em 0;
 }
 
+fieldset {
+  margin: 0;
+  padding: 0;
+  border: none;
+  display: inline-block;
+}
+
 input,
 textarea {
-  margin: 0 0 1em 0;
+  color: #555;
   box-sizing: border-box;
 }
 
@@ -187,7 +195,7 @@ textarea {
   font-family: sans-serif;
   width: 100%;
   padding: .5em;
-  border: thin solid #96ADC8;
+  border: thin solid rgb(213, 213, 213);
   border-radius: 3px;
   display: block;
 }
@@ -212,13 +220,11 @@ hr {
 }
 
 ::-moz-selection {
-  background: #96ADC8;
-  color: #FFFFFF;
+  background: rgb(239, 243, 247);
 }
 
 ::selection {
-  background: #96ADC8;
-  color: #FFFFFF;
+  background: rgb(239, 243, 247);
 }
 
 /**********/
@@ -332,15 +338,15 @@ hr {
 }
 
 .btn-round:hover {
-  background: rgb(176, 194, 214);
+  background: rgb(113, 130, 150);
 }
 
 .btn-round:focus {
-  background: rgb(176, 194, 214);
+  background: rgb(113, 130, 150);
 }
 
 .btn-round:active {
-  background: rgb(166, 185, 208);
+  background: rgb(128, 147, 170);
 }
 
 .btn-pill {
@@ -352,15 +358,15 @@ hr {
 }
 
 .btn-pill:hover {
-  background: rgb(176, 194, 214);
+  background: rgb(113, 130, 150);
 }
 
 .btn-pill:focus {
-  background: rgb(176, 194, 214);
+  background: rgb(113, 130, 150);
 }
 
 .btn-pill:active {
-  background: rgb(161, 181, 206);
+  background: rgb(135, 156, 180);
 }
 
 .btn-lg {
@@ -375,18 +381,6 @@ hr {
 
 .grd > .row {
   overflow: hidden;
-}
-
-.grd > .row > [class*="col-"] {
-  margin: 0 0 2em 0;
-}
-
-.grd > .row > [class*="col-"]:first-of-type {
-  padding-left: 0;
-}
-
-.grd > .row > [class*="col-"]:last-of-type {
-  padding-right: 0;
 }
 
 .grd > .row > .col-1 {
@@ -489,6 +483,14 @@ hr {
   margin: 1em 0;
 }
 
+.mt1 {
+  margin: 1em 0 0 0;
+}
+
+.mb1 {
+  margin: 0 0 1em 0;
+}
+
 .m2 {
   margin: 2em;
 }
@@ -499,6 +501,14 @@ hr {
 
 .my2 {
   margin: 2em 0;
+}
+
+.mt2 {
+  margin: 2em 0 0 0;
+}
+
+.mb2 {
+  margin: 0 0 2em 0;
 }
 
 /* Padding */
@@ -519,6 +529,14 @@ hr {
   padding: 1em 0;
 }
 
+.pt1 {
+  padding: 1em 0 0 0;
+}
+
+.pb1 {
+  padding: 0 0 1em 0;
+}
+
 .p2 {
   padding: 2em;
 }
@@ -529,6 +547,14 @@ hr {
 
 .py2 {
   padding: 2em 0;
+}
+
+.pt2 {
+  padding: 2em 0 0 0;
+}
+
+.pb2 {
+  padding: 0 0 2em 0;
 }
 
 /* Table */
@@ -720,22 +746,23 @@ body {
 
 /***********/
 
+/* Accent */
+
+.accent {
+  color: #F012BE;
+  font-weight: 700;
+}
+
+/* Grid */
+
+.grd.demo > .row > [class*="col-"] {
+  margin: 0 0 2em 0;
+}
+
 /* Logo */
 
 .logo {
   font-size: 3em;
   font-weight: 400;
   margin: 0;
-}
-
-/* Period */
-
-.period {
-  color: #F012BE;
-}
-
-/* Version */
-
-.version {
-  color: #F012BE;
 }
