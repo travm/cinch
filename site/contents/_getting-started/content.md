@@ -5,7 +5,7 @@ Cinch is a CSS micro-framework designed to get your project _started_ on the rig
     <div class="row">
         <div class="col col-3 is-px2">
             <h3>Boilerplate</h3>
-            <p>The boilerplate is the unminfied source that can be used as a base for your next project. If you like what you've see, then it's time to get started!</p>
+            <p>The boilerplate is the unminfied & unprocessed source that is used as a base for your next project. Get up and running quickly, and add your own style along the way.</p>
             <a class="btn-round" href="#">Download Boilerplate</a>
         </div>
         <div class="col col-3">
