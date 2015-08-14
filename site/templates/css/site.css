@@ -18,7 +18,7 @@
 /********/
 
 body {
-  color: #555;
+  color: #111111;
   line-height: 1.5;
   font: 400 16px sans-serif;
   margin: 0;
@@ -33,27 +33,27 @@ h1 {
 
 h2 {
   font-size: 2.25em;
-  color: rgb(171, 189, 211);
+  color: rgb(105, 105, 105);
 }
 
 h3 {
   font-size: 1.75em;
-  color: rgb(171, 189, 211);
+  color: rgb(105, 105, 105);
 }
 
 h4 {
   font-size: 1.5em;
-  color: rgb(182, 198, 217);
+  color: rgb(124, 124, 124);
 }
 
 h5 {
   font-size: 1.25em;
-  color: rgb(192, 206, 222);
+  color: rgb(143, 143, 143);
 }
 
 h6 {
   font-size: 1em;
-  color: rgb(192, 206, 222);
+  color: rgb(143, 143, 143);
 }
 
 h1,
@@ -62,12 +62,23 @@ h3,
 h4,
 h5,
 h6 {
-  font-weight: 400;
   margin: 1em 0 0 0;
 }
 
+h1,
+h2,
+h3,
+h4 {
+  font-weight: 400;
+}
+
+h5,
+h6 {
+  font-weight: 700;
+}
+
 a {
-  color: #96ADC8;
+  color: #444;
 }
 
 p {
@@ -80,9 +91,9 @@ p.lead {
 }
 
 p > a {
-  color: #96ADC8;
+  color: #444;
   text-decoration: none;
-  border-bottom: 1px solid #96ADC8;
+  border-bottom: 1px solid #444;
 }
 
 del,
@@ -155,11 +166,11 @@ table {
 
 table > thead > tr {
   color: #FFFFFF;
-  background: #96ADC8;
+  background: #444;
 }
 
 table > tbody > tr:nth-child(even) {
-  background: rgb(239, 243, 247);
+  background: rgb(227, 227, 227);
 }
 
 table th,
@@ -185,7 +196,7 @@ fieldset {
 
 input,
 textarea {
-  color: #555;
+  color: #111111;
   box-sizing: border-box;
 }
 
@@ -195,7 +206,7 @@ textarea {
   font-family: sans-serif;
   width: 100%;
   padding: .5em;
-  border: thin solid rgb(213, 213, 213);
+  border: thin solid rgb(196, 196, 196);
   border-radius: 3px;
   display: block;
 }
@@ -203,11 +214,6 @@ textarea {
 input[type="radio"],
 input[type="checkbox"] {
   margin: 0 .25em 0 0;
-}
-
-input:focus,
-textarea:focus {
-  outline-color: #96ADC8;
 }
 
 /* Misc */
@@ -220,11 +226,11 @@ hr {
 }
 
 ::-moz-selection {
-  background: rgb(239, 243, 247);
+  background: rgb(227, 227, 227);
 }
 
 ::selection {
-  background: rgb(239, 243, 247);
+  background: rgb(227, 227, 227);
 }
 
 /**********/
@@ -285,7 +291,7 @@ hr {
 }
 
 .breadcrumbs > li > a {
-  color: #96ADC8;
+  color: #444;
   text-decoration: none;
 }
 
@@ -307,66 +313,56 @@ hr {
 }
 
 .btn-ghost {
-  color: #96ADC8;
+  color: #444;
   padding: 1.25em 2em;
   background: none;
-  box-shadow: inset 0px 0px 0px 2px #96ADC8;
+  box-shadow: inset 0px 0px 0px 2px #444;
   border: none;
   border-radius: 4px;
 }
 
-.btn-ghost:hover {
-  color: #FFFFFF;
-  background: #96ADC8;
-}
-
+.btn-ghost:hover,
 .btn-ghost:focus {
   color: #FFFFFF;
-  background: #96ADC8;
+  background: #444;
 }
 
 .btn-ghost:active {
-  background: rgb(171, 189, 211);
+  background: rgb(105, 105, 105);
 }
 
 .btn-round {
   color: #FFFFFF;
   padding: 1.25em 2.5em;
-  background: #96ADC8;
+  background: #444;
   border: none;
   border-radius: 4px;
 }
 
-.btn-round:hover {
-  background: rgb(113, 130, 150);
-}
-
+.btn-round:hover,
 .btn-round:focus {
-  background: rgb(113, 130, 150);
+  background: rgb(105, 105, 105);
 }
 
 .btn-round:active {
-  background: rgb(128, 147, 170);
+  background: rgb(96, 96, 96);
 }
 
 .btn-pill {
   color: #FFFFFF;
   padding: 1.25em 2em;
-  background: #96ADC8;
+  background: #444;
   border: none;
   border-radius: 2em;
 }
 
-.btn-pill:hover {
-  background: rgb(113, 130, 150);
-}
-
+.btn-pill:hover,
 .btn-pill:focus {
-  background: rgb(113, 130, 150);
+  background: rgb(105, 105, 105);
 }
 
 .btn-pill:active {
-  background: rgb(135, 156, 180);
+  background: rgb(87, 87, 87);
 }
 
 .btn-lg {
@@ -701,6 +697,9 @@ hr {
 
 :root {
   /* Color Palette */
+  /*--clr-pri: #96ADC8;
+    --clr-sec: #A3D5FF;
+    --clr-ter: #BE759E;*/
 }
 
 /********/
@@ -710,7 +709,7 @@ hr {
 /********/
 
 body {
-  font: 400 16px "omnes-pro", sans-serif;
+  font: 400 16px "proxima-nova", sans-serif;
   height: 100%;
 }
 
@@ -723,7 +722,7 @@ body {
 /* Header */
 
 #header {
-  color: #555;
+  color: #111111;
   text-align: left;
   padding: 4em 0;
   background: #efffff;
@@ -734,7 +733,7 @@ body {
 /* Footer */
 
 #footer {
-  color: #555;
+  color: #111111;
   margin: 4em 0 0 0;
   padding: 2em 0;
   background: #efffff;

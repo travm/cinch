@@ -4,9 +4,9 @@
 
 :root {
     /* Color Palette */
-    --clr-pri: #96ADC8;
+    /*--clr-pri: #96ADC8;
     --clr-sec: #A3D5FF;
-    --clr-ter: #BE759E;
+    --clr-ter: #BE759E;*/
 }
 
 
@@ -14,7 +14,7 @@
 /* BASE */
 /********/
 
-body {font:400 16px "omnes-pro", sans-serif; height:100%;}
+body {font:400 16px "proxima-nova", sans-serif; height:100%;}
 
 
 /**********/
@@ -22,7 +22,7 @@ body {font:400 16px "omnes-pro", sans-serif; height:100%;}
 /**********/
 
 /* Header */
-#header {color:var(--clr-text); text-align:left; padding:4em 0; background:#efffff;}
+#header {color:var(--clrs-black); text-align:left; padding:4em 0; background:#efffff;}
 #header-content {}
 
 /* Core */
@@ -30,7 +30,7 @@ body {font:400 16px "omnes-pro", sans-serif; height:100%;}
 #core-content {}
 
 /* Footer */
-#footer {color:var(--clr-text); margin:4em 0 0 0; padding:2em 0; background:#efffff;}
+#footer {color:var(--clrs-black); margin:4em 0 0 0; padding:2em 0; background:#efffff;}
 #footer-content {}
 
 
