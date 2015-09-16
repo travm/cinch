@@ -49,15 +49,15 @@
     }
 
     /* Typography */
-    h1 {font-size:2.75em;}
-    h2 {font-size:2.25em; color:color(var(--clr-pri) tint(20%));}
-    h3 {font-size:1.75em; color:color(var(--clr-pri) tint(20%));}
-    h4 {font-size:1.5em; color:color(var(--clr-pri) tint(30%));}
-    h5 {font-size:1.25em; color:color(var(--clr-pri) tint(40%));}
-    h6 {font-size:1em; color:color(var(--clr-pri) tint(40%));}
+    h1 {font-size:2.5em;}
+    h2 {font-size:2.25em; color:var(--clr-pri);}
+    h3 {font-size:1.75em; color:var(--clr-pri);}
+    h4 {font-size:1.5em; color:var(--clr-pri);}
+    h5 {font-size:1.25em; color:var(--clr-pri));}
+    h6 {font-size:1em; color:var(--clr-pri));}
     h1, h2, h3, h4, h5, h6 {margin:1em 0 0 0;}
-    h1, h2, h3, h4 {font-weight:400;}
-    h5, h6 {font-weight:700;}
+    h1, h2, h3 {font-weight:400;}
+    h4, h5, h6 {font-weight:700;}
 
     a {color:var(--clr-pri);}
     p {line-height:1.5;}
@@ -157,7 +157,7 @@
 
     /* Buttons */
     [class*="btn-"] {
-        /* width:100%; */
+        width:100%;
         font-size:.75em;
         font-weight:400;
         margin:0 0 1em 0;
@@ -299,6 +299,10 @@
     /* MODULES */
     /***********/
 
+    /* Button */
+    [class*="btn-"] {width:auto;}
+
+
     /* Breadcrumbs */
     .breadcrumbs > li {display:inline-block;}
     .breadcrumbs > li.last:before {content:''; margin:0;}
@@ -307,7 +311,7 @@
     .grd > .row {}
     .grd > .row > [class*="col-"] {
         padding:0 1em;
-        box-sizing:border-box; 
+        box-sizing:border-box;
         float:left;
     }
     .grd > .row > [class*="col-"]:first-of-type {padding-left:0;}
