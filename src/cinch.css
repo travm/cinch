@@ -46,6 +46,7 @@
         font:400 16px sans-serif;
         margin:0;
         padding:0;
+        background:var(--clrs-white);
     }
 
     /* Typography */
@@ -173,7 +174,7 @@
 
     .btn-ghost {
         color:var(--clr-pri);
-        padding:1.25em 2em;
+        padding:1em 2em;
         background:none;
         box-shadow:inset 0px 0px 0px 2px var(--clr-pri);
         border:none;
@@ -185,7 +186,7 @@
 
     .btn-round {
         color:var(--clrs-white);
-        padding:1.25em 2.5em;
+        padding:1em 2.5em;
         background:var(--clr-pri);
         border:none;
         border-radius:4px;
@@ -196,7 +197,7 @@
 
     .btn-pill {
         color:var(--clrs-white);
-        padding:1.25em 2em;
+        padding:1em 2em;
         background:var(--clr-pri);
         border:none;
         border-radius:2em;

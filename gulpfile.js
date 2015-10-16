@@ -1,3 +1,4 @@
+// Gulp Plugins
 var gulp = require('gulp'),
     myth = require('gulp-myth'),
     rename = require('gulp-rename'),
@@ -5,9 +6,10 @@ var gulp = require('gulp'),
     minify = require('gulp-minify-css'),
     ghPages = require('gulp-gh-pages'),
 
-    // Node Modules
+// Node Modules
     del = require('del');
 
+// Project Task
 gulp.task('project', function () {
     return gulp.src(['src/cinch.css'])
         .pipe(gulp.dest('dist'))
@@ -17,6 +19,7 @@ gulp.task('project', function () {
         .pipe(gulp.dest('dist'));
 });
 
+// Site Task
 gulp.task('site', function () {
     return gulp.src(['src/cinch.css', 'src/site.css'])
         .pipe(concat('site.css'))
@@ -24,6 +27,7 @@ gulp.task('site', function () {
         .pipe(gulp.dest('site/templates/css'));
 });
 
+// Deploy Task
 gulp.task('deploy', function () {
     return gulp.src('site/output/**/*')
         .pipe(ghPages({
@@ -31,14 +35,16 @@ gulp.task('deploy', function () {
         }));
 });
 
+// Clean Task
 gulp.task('clean', function () {
     del('dist/*');
     del('site/templates/css/*');
 });
 
-
+// Watch Task
 gulp.task('watch', function () {
     gulp.watch(['src/cinch.css', 'src/site.css'], ['project', 'site']);
 });
 
+// Default Task
 gulp.task('default', ['project', 'site', 'watch']);

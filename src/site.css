@@ -3,10 +3,7 @@
 /*************/
 
 :root {
-    /* Color Palette */
-    /*--clr-pri: #96ADC8;
-    --clr-sec: #A3D5FF;
-    --clr-ter: #BE759E;*/
+
 }
 
 
@@ -25,7 +22,7 @@ body {font:400 16px "proxima-nova", sans-serif; height:100%;}
 #header {
     margin-bottom:2em;
     padding:2em 0;
-    border-bottom:1px solid var(--clr-pri);
+    border-bottom:4px solid var(--clrs-orange);
 }
 
 /* Core */
@@ -35,7 +32,7 @@ body {font:400 16px "proxima-nova", sans-serif; height:100%;}
 #footer {
     margin-top:4em;
     padding:1em 0;
-    border-top:1px solid var(--clr-pri);
+    border-top:4px solid var(--clrs-orange);
 }
 
 
@@ -44,7 +41,7 @@ body {font:400 16px "proxima-nova", sans-serif; height:100%;}
 /***********/
 
 /* Accent */
-.accent {color:var(--clrs-fuschia); font-weight:700;}
+.accent {color:var(--clrs-orange); font-weight:700;}
 
 /* Grid */
 .grd.demo > .row > [class*="col-"] {margin:0 0 2em 0;}
