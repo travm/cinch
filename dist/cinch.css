@@ -56,12 +56,18 @@
     h4 {font-size:1.5em; color:var(--clr-pri);}
     h5 {font-size:1.25em; color:var(--clr-pri));}
     h6 {font-size:1em; color:var(--clr-pri));}
-    h1, h2, h3, h4, h5, h6 {margin:1em 0 0 0;}
-    h1, h2, h3 {font-weight:400;}
-    h4, h5, h6 {font-weight:700;}
+    h1, h2, h3, h4, h5, h6 {margin:2em 0 0 0;}
+    h1:first-child,
+    h2:first-child,
+    h3:first-child,
+    h4:first-child,
+    h5:first-child,
+    h6:first-child {margin:0;}
+    h1, h2, h3 {font-weight:700;}
+    h4, h5, h6 {font-weight:900;}
 
     a {color:var(--clr-pri);}
-    p {line-height:1.5;}
+    p {line-height:1.5; letter-spacing:1px; margin:2em 0;}
     p.lead {font-size:1.5em; font-style:italic;}
     p > a {color:var(--clr-pri); text-decoration:none; border-bottom:1px solid var(--clr-pri);}
 

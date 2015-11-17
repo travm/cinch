@@ -63,19 +63,28 @@ h3,
 h4,
 h5,
 h6 {
-  margin: 1em 0 0 0;
+  margin: 2em 0 0 0;
+}
+
+h1:first-child,
+h2:first-child,
+h3:first-child,
+h4:first-child,
+h5:first-child,
+h6:first-child {
+  margin: 0;
 }
 
 h1,
 h2,
 h3 {
-  font-weight: 400;
+  font-weight: 700;
 }
 
 h4,
 h5,
 h6 {
-  font-weight: 700;
+  font-weight: 900;
 }
 
 a {
@@ -84,6 +93,8 @@ a {
 
 p {
   line-height: 1.5;
+  letter-spacing: 1px;
+  margin: 2em 0;
 }
 
 p.lead {
@@ -765,10 +776,16 @@ body {
 
 .logo {
   font-size: 3em;
-  font-weight: 400;
+  font-weight: 900;
   margin: 0;
 }
 
 .logo.small {
   font-size: 1.5em;
+}
+
+/* Measure */
+
+.measure {
+  max-width: 1000px;
 }

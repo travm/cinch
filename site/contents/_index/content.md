@@ -7,6 +7,7 @@ Lorem ipsum dolor sit amet, <a href="#">consectetur adipisicing</a> elit, sed do
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 ## Breadcrumbs
 The breadcrumbs module is built to dynamically change to display only the final item on mobile devices. This saves space, while still giving the user access to the breadcrumbs trail.
@@ -19,13 +20,17 @@ The breadcrumbs module is built to dynamically change to display only the final 
 
 ## Buttons
 A small collection of common button styles for quick prototyping. As your layout matures, simply revisit these styles and modify them to suit your project's needs.
-<h6>Base Size</h6>
+
+###### Base Size
+
 <ul class="list inline my1">
   <li><button class="btn-ghost">Ghost Button</button></li>
   <li><button class="btn-round">Rounded Button</button></li>
   <li><button class="btn-pill">Pill Button</button></li>
 </ul>
-<h6>Large Alternative</h6>
+
+###### Large Alternative
+
 <ul class="list inline my1">
   <li><button class="btn-ghost btn-lg">Ghost Button</button></li>
   <li><button class="btn-round btn-lg">Rounded Button</button></li>

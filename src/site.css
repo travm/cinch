@@ -47,5 +47,8 @@ body {font:400 16px "proxima-nova", sans-serif; height:100%;}
 .grd.demo > .row > [class*="col-"] {margin:0 0 2em 0;}
 
 /* Logo */
-.logo {font-size:3em; font-weight:400; margin:0;}
+.logo {font-size:3em; font-weight:900; margin:0;}
 .logo.small {font-size:1.5em;}
+
+/* Measure */
+.measure {max-width:1000px;}
