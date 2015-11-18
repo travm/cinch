@@ -71,8 +71,7 @@
     strong, b {font-weight:bold;}
     em {font-style:italic;}
     blockquote {
-        width:70%;
-        font-size:1.4em;
+        font-size:1.3em;
         font-style:italic;
         text-align:center;
         margin:0 auto;
