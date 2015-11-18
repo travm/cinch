@@ -66,15 +66,6 @@ h6 {
   margin: 2em 0 0 0;
 }
 
-h1:first-child,
-h2:first-child,
-h3:first-child,
-h4:first-child,
-h5:first-child,
-h6:first-child {
-  margin: 0;
-}
-
 h1,
 h2,
 h3 {
@@ -92,7 +83,7 @@ a {
 }
 
 p {
-  line-height: 1.5;
+  line-height: 1.75;
   letter-spacing: 1px;
   margin: 2em 0;
 }
@@ -132,10 +123,11 @@ em {
 }
 
 blockquote {
-  font-size: 1.2em;
+  width: 70%;
+  font-size: 1.4em;
   font-style: italic;
   text-align: center;
-  margin: 0;
+  margin: 0 auto;
   padding: 0 1.5em;
   overflow: hidden;
 }

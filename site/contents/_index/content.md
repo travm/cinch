@@ -38,13 +38,13 @@ A small collection of common button styles for quick prototyping. As your layout
 </ul>
 
 ## Forms
-<form action="" class="my1">
+<form action="" class="my2">
     <label for="name">Name</label>
     <input type="text" id="name" title="Input your name." placeholder="Your name...">
 
     <div class="grd">
       <div class="row">
-        <div class="col-2 my1">
+        <div class="col-2 my2">
           <label for="category">Select: </label>
           <fieldset>
               <select name="category" id="category" title="Select a category.">
@@ -54,7 +54,7 @@ A small collection of common button styles for quick prototyping. As your layout
               </select>
           </fieldset>
         </div>
-        <div class="col-2 my1">
+        <div class="col-2 my2">
           <label for="radio">Radio: </label>
           <fieldset>
               <label for="female">
@@ -67,7 +67,7 @@ A small collection of common button styles for quick prototyping. As your layout
               </label>
           </fieldset>
         </div>
-        <div class="col-2 my1">
+        <div class="col-2 my2">
           <label for="checkbox">Checkbox: </label>
           <fieldset>
               <label for="agree">
@@ -80,11 +80,11 @@ A small collection of common button styles for quick prototyping. As your layout
     </div>
     <label for="message">Message</label>
     <textarea name="message" id="message" cols="30" rows="10" placeholder="Your message..."></textarea>
-    <input type="submit" class="btn-round my1" value="Submit">
+    <input type="submit" class="btn-round my2" value="Submit">
 </form>
 
 ## Grid
-<div class="grd demo my1">
+<div class="grd demo my2">
     <div class="row">
         <div class="col-1">
             <div class="box">.col-1</div>
