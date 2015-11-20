@@ -129,20 +129,18 @@ A small collection of common button styles for quick prototyping. As your layout
 
 ## Media
 <div class="media">
-    <div class="media-figure">
-        <img src="http://fillmurray.com/100/100" alt="Media Figure">
+    <div class="media-figure bg-green">
     </div>
     <div class="media-body">
-        <h6 class="m0">Hello World</h6>
+        <h6 class="m0">Marty McFly</h6>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat tempora ipsam eos sunt dolore, dolor laudantium blanditiis veritatis ut distinctio temporibus voluptates magnam, minima. Obcaecati voluptate deleniti earum quis minima!</p>
     </div>
 </div>
 <div class="media">
-    <div class="media-figure">
-        <img src="http://fillmurray.com/100/100" alt="Media Figure">
+    <div class="media-figure bg-blue">
     </div>
     <div class="media-body">
-        <h6 class="m0">Hello World</h6>
+        <h6 class="m0">Dr. Emmett Brown</h6>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat tempora ipsam eos sunt dolore, dolor laudantium blanditiis veritatis ut distinctio temporibus voluptates magnam, minima. Obcaecati voluptate deleniti earum quis minima!</p>
     </div>
 </div>

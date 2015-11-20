@@ -13,6 +13,7 @@
 
 body {font:400 16px "proxima-nova", sans-serif; height:100%;}
 
+p > a {border-bottom:3px solid var(--clrs-orange);}
 
 /**********/
 /* LAYOUT */
@@ -20,10 +21,15 @@ body {font:400 16px "proxima-nova", sans-serif; height:100%;}
 
 /* Header */
 #header {
-    margin-bottom:2em;
+    margin-bottom:1em;
     padding:2em 0;
     border-bottom:4px solid var(--clrs-orange);
 }
+#header-title {}
+#header-nav {}
+
+/* Nav */
+#nav {font-weight:700; text-transform:uppercase;}
 
 /* Core */
 #core {}
@@ -43,12 +49,30 @@ body {font:400 16px "proxima-nova", sans-serif; height:100%;}
 /* Accent */
 .accent {color:var(--clrs-orange); font-weight:700;}
 
+/* BG Colors */
+.bg-blue {background:var(--clrs-blue);}
+.bg-green {background:var(--clrs-green);}
+
 /* Grid */
 .grd.demo > .row > [class*="col-"] {margin:0 0 2em 0;}
 
-/* Logo */
-.logo {font-size:3em; font-weight:900; margin:0;}
-.logo.small {font-size:1.5em;}
+/* Title */
+.title {font-size:3em; font-weight:900; margin:0;}
+.title.small {font-size:1.5em;}
 
-/* Measure */
-.measure {max-width:1000px;}
+/* Media */
+.media-figure {width:100px; height:100px; display:block;}
+
+/* Navigation */
+.nav {list-style:none; margin:0; padding:0;}
+.nav > li {margin:0 1em 0 0; padding:0; display:inline-block;}
+.nav > li:last-child {margin:0;}
+
+
+/*****************/
+/* MEDIA QUERIES */
+/*****************/
+
+@media screen and (min-width:600px) {
+
+}

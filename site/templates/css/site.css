@@ -63,7 +63,7 @@ h3,
 h4,
 h5,
 h6 {
-  margin: 2em 0 0 0;
+  margin: 1.25em 0 .75em 0;
 }
 
 h1,
@@ -84,8 +84,7 @@ a {
 
 p {
   line-height: 1.75;
-  letter-spacing: 1px;
-  margin: 2em 0;
+  margin: 0 0 2em 0;
 }
 
 p.lead {
@@ -126,9 +125,13 @@ blockquote {
   font-size: 1.3em;
   font-style: italic;
   text-align: center;
-  margin: 0 auto;
-  padding: 0 1.5em;
+  margin: 1em auto;
+  padding: 1.5em;
   overflow: hidden;
+}
+
+blockquote > p {
+  margin: 0;
 }
 
 /* Images */
@@ -139,12 +142,24 @@ img {
 
 /* Code */
 
-code,
-pre {
+pre,
+code {
   color: #FFFFFF;
-  padding: 1em;
   background: #111111;
   border-radius: 4px;
+}
+
+pre {
+  margin: 2em 0;
+  padding: 1em;
+}
+
+code {
+  padding: .15em .25em;
+}
+
+pre > code {
+  padding: 0;
 }
 
 /* Lists */
@@ -173,7 +188,7 @@ table > thead > tr {
 }
 
 table > tbody > tr:nth-child(even) {
-  background: rgb(227, 227, 227);
+  background: rgb(246, 246, 246);
 }
 
 table th,
@@ -563,6 +578,20 @@ hr {
   overflow-x: auto;
 }
 
+/* Text */
+
+.text-left {
+  text-align: left;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
 /*************/
 
 /* MODIFIERS */
@@ -629,7 +658,7 @@ hr {
   /* Typography */
 
   blockquote {
-    margin: 0 1.5em;
+    margin: 1.5em;
     border-left: 5px solid #DDDDDD;
   }
 
@@ -720,6 +749,10 @@ body {
   height: 100%;
 }
 
+p > a {
+  border-bottom: 3px solid #FF851B;
+}
+
 /**********/
 
 /* LAYOUT */
@@ -729,9 +762,16 @@ body {
 /* Header */
 
 #header {
-  margin-bottom: 2em;
+  margin-bottom: 1em;
   padding: 2em 0;
   border-bottom: 4px solid #FF851B;
+}
+
+/* Nav */
+
+#nav {
+  font-weight: 700;
+  text-transform: uppercase;
 }
 
 /* Core */
@@ -757,26 +797,66 @@ body {
   font-weight: 700;
 }
 
+/* BG Colors */
+
+.bg-blue {
+  background: #0074D9;
+}
+
+.bg-green {
+  background: #2ECC40;
+}
+
 /* Grid */
 
 .grd.demo > .row > [class*="col-"] {
   margin: 0 0 2em 0;
 }
 
-/* Logo */
+/* Title */
 
-.logo {
+.title {
   font-size: 3em;
   font-weight: 900;
   margin: 0;
 }
 
-.logo.small {
+.title.small {
   font-size: 1.5em;
 }
 
-/* Measure */
+/* Media */
 
-.measure {
-  max-width: 1000px;
+.media-figure {
+  width: 100px;
+  height: 100px;
+  display: block;
+}
+
+/* Navigation */
+
+.nav {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav > li {
+  margin: 0 1em 0 0;
+  padding: 0;
+  display: inline-block;
+}
+
+.nav > li:last-child {
+  margin: 0;
+}
+
+/*****************/
+
+/* MEDIA QUERIES */
+
+/*****************/
+
+@media screen and (min-width:600px) {
+
 }
