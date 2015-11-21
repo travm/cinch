@@ -7,6 +7,7 @@ Lorem ipsum dolor sit amet, <a href="#">consectetur adipisicing</a> elit, sed do
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 ## Breadcrumbs
 The breadcrumbs module is built to dynamically change to display only the final item on mobile devices. This saves space, while still giving the user access to the breadcrumbs trail.
@@ -19,13 +20,17 @@ The breadcrumbs module is built to dynamically change to display only the final 
 
 ## Buttons
 A small collection of common button styles for quick prototyping. As your layout matures, simply revisit these styles and modify them to suit your project's needs.
-<h6>Base Size</h6>
+
+###### Base Size
+
 <ul class="list inline my1">
   <li><button class="btn-ghost">Ghost Button</button></li>
   <li><button class="btn-round">Rounded Button</button></li>
   <li><button class="btn-pill">Pill Button</button></li>
 </ul>
-<h6>Large Alternative</h6>
+
+###### Large Alternative
+
 <ul class="list inline my1">
   <li><button class="btn-ghost btn-lg">Ghost Button</button></li>
   <li><button class="btn-round btn-lg">Rounded Button</button></li>
@@ -33,13 +38,13 @@ A small collection of common button styles for quick prototyping. As your layout
 </ul>
 
 ## Forms
-<form action="" class="my1">
+<form action="" class="my2">
     <label for="name">Name</label>
     <input type="text" id="name" title="Input your name." placeholder="Your name...">
 
     <div class="grd">
       <div class="row">
-        <div class="col-2 my1">
+        <div class="col-2 my2">
           <label for="category">Select: </label>
           <fieldset>
               <select name="category" id="category" title="Select a category.">
@@ -49,7 +54,7 @@ A small collection of common button styles for quick prototyping. As your layout
               </select>
           </fieldset>
         </div>
-        <div class="col-2 my1">
+        <div class="col-2 my2">
           <label for="radio">Radio: </label>
           <fieldset>
               <label for="female">
@@ -62,7 +67,7 @@ A small collection of common button styles for quick prototyping. As your layout
               </label>
           </fieldset>
         </div>
-        <div class="col-2 my1">
+        <div class="col-2 my2">
           <label for="checkbox">Checkbox: </label>
           <fieldset>
               <label for="agree">
@@ -75,11 +80,11 @@ A small collection of common button styles for quick prototyping. As your layout
     </div>
     <label for="message">Message</label>
     <textarea name="message" id="message" cols="30" rows="10" placeholder="Your message..."></textarea>
-    <input type="submit" class="btn-round my1" value="Submit">
+    <input type="submit" class="btn-round my2" value="Submit">
 </form>
 
 ## Grid
-<div class="grd demo my1">
+<div class="grd demo my2">
     <div class="row">
         <div class="col-1">
             <div class="box">.col-1</div>
@@ -124,20 +129,18 @@ A small collection of common button styles for quick prototyping. As your layout
 
 ## Media
 <div class="media">
-    <div class="media-figure">
-        <img src="http://fillmurray.com/100/100" alt="Media Figure">
+    <div class="media-figure bg-green">
     </div>
     <div class="media-body">
-        <h6 class="m0">Hello World</h6>
+        <h6 class="m0">Marty McFly</h6>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat tempora ipsam eos sunt dolore, dolor laudantium blanditiis veritatis ut distinctio temporibus voluptates magnam, minima. Obcaecati voluptate deleniti earum quis minima!</p>
     </div>
 </div>
 <div class="media">
-    <div class="media-figure">
-        <img src="http://fillmurray.com/100/100" alt="Media Figure">
+    <div class="media-figure bg-blue">
     </div>
     <div class="media-body">
-        <h6 class="m0">Hello World</h6>
+        <h6 class="m0">Dr. Emmett Brown</h6>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat tempora ipsam eos sunt dolore, dolor laudantium blanditiis veritatis ut distinctio temporibus voluptates magnam, minima. Obcaecati voluptate deleniti earum quis minima!</p>
     </div>
 </div>

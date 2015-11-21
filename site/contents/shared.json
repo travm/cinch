@@ -1,6 +1,16 @@
 {
-	"site-title": "Welcome!",
-	"footer-text": "Built with <a href=\"http://laktek.github.com/punch\">Punch</a>",
-	"navbar": [
-	]
+    "navigation": [
+        {
+            "text": "Home",
+            "link": "/"
+        },
+        {
+            "text": "Getting Started",
+            "link": "/getting-started"
+        },
+        {
+            "text": "Github",
+            "link": "https://github.com/travm/cinch"
+        }
+    ]
 }
