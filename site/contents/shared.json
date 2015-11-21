@@ -1,0 +1,20 @@
+{
+    "navigation": [
+        {
+            "text": "Home",
+            "link": "/"
+        },
+        {
+            "text": "Getting Started",
+            "link": "/getting-started"
+        },
+        {
+            "text": "Insight",
+            "link": "/insight"
+        },
+        {
+            "text": "Github",
+            "link": "https://github.com/travm/cinch"
+        }
+    ]
+}

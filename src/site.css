@@ -81,5 +81,5 @@ p > a {border-bottom:3px solid var(--clrs-orange);}
 
     /* Header */
     #header-title {float:left;}
-    #header-nav {margin:1em 0; text-align:right; float:right;}
+    #header-nav {margin:1.25em 0; text-align:right; float:right;}
 }
