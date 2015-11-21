@@ -765,13 +765,7 @@ p > a {
   margin-bottom: 1em;
   padding: 2em 0;
   border-bottom: 4px solid #FF851B;
-}
-
-/* Nav */
-
-#nav {
-  font-weight: 700;
-  text-transform: uppercase;
+  overflow: hidden;
 }
 
 /* Core */
@@ -837,6 +831,8 @@ p > a {
 
 .nav {
   list-style: none;
+  font-weight: 700;
+  text-transform: uppercase;
   margin: 0;
   padding: 0;
 }
@@ -858,5 +854,15 @@ p > a {
 /*****************/
 
 @media screen and (min-width:600px) {
+  /* Header */
 
+  #header-title {
+    float: left;
+  }
+
+  #header-nav {
+    margin: 1em 0;
+    text-align: right;
+    float: right;
+  }
 }
