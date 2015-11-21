@@ -15,24 +15,34 @@
         <script src="//use.typekit.net/xos4uyv.js"></script>
         <script>try{Typekit.load();}catch(e){}</script>
 
-        <!-- HTML5 Element Fix -->
-        <!--[if lt IE 9]>
-            <script>
-                document.createElement('header');
-                document.createElement('nav');
-                document.createElement('section');
-                document.createElement('article');
-                document.createElement('aside');
-                document.createElement('footer');
-            </script>
-        <![endif]-->
+        <!-- Google Analytics -->
+        <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+            ga('create', 'UA-70468101-1', 'auto');
+            ga('send', 'pageview');
+        </script>
     </head>
 
     <body>
 
         <header id="header" class="measure">
-            <h1 class="logo">Cinch<span class="accent">.</span></h1>
-            <p>A simple, pure, and efficient CSS micro-framework.</p>
+            <div id="header-title">
+                <h1 class="title">
+                    <a href="/">Cinch<span class="accent">.</span></a>
+                </h1>
+                <p>A simple, pure, and efficient CSS micro-framework.</p>
+            </div>
+            <div id="header-nav">
+                <ul class="nav">
+                        <li><a href="&#x2F;">Home</a></li>
+                        <li><a href="&#x2F;getting-started">Getting Started</a></li>
+                        <li><a href="https:&#x2F;&#x2F;github.com&#x2F;travm&#x2F;cinch">Github</a></li>
+                </ul>
+            </div>
         </header>
 
 		<main id="core" class="measure" role="main">
@@ -44,11 +54,11 @@
         </div>
         <div class="col-2">
             <h4>Pure CSS</h4>
-            <p>Created using pure, future friendly CSS. Paired with a pre-processor such as <a href="http://myth.io">Myth</a> or <a href="https://github.com/postcss/postcss">PostCSS</a>, you can take advantage of cutting edge CSS features while they are still being finalized.</p>
+            <p>Created using pure, future friendly CSS and paired with a pre-processor to take advantage of cutting edge CSS features while they&#39;re being finalized.</p>
         </div>
         <div class="col-2">
             <h4>Modular</h4>
-            <p>Heavily inspired by <a href="http://smacss.com">SMACSS</a> and other popular object-oriented methodologies to create modular, reusable elements.</p>
+            <p>Heavily inspired by <a href="http://smacss.com">SMACSS</a> and other popular object-oriented methodologies to create modular, reusable components.</p>
         </div>
     </div>
 </div>
@@ -61,6 +71,7 @@
 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 </blockquote>
 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 <h2 id="breadcrumbs">Breadcrumbs</h2>
 <p>The breadcrumbs module is built to dynamically change to display only the final item on mobile devices. This saves space, while still giving the user access to the breadcrumbs trail.</p>
 <ul class="breadcrumbs">
@@ -72,13 +83,14 @@
 
 <h2 id="buttons">Buttons</h2>
 <p>A small collection of common button styles for quick prototyping. As your layout matures, simply revisit these styles and modify them to suit your project&#39;s needs.</p>
-<p><h6>Base Size</h6></p>
+<h6 id="base-size">Base Size</h6>
 <ul class="list inline my1">
   <li><button class="btn-ghost">Ghost Button</button></li>
   <li><button class="btn-round">Rounded Button</button></li>
   <li><button class="btn-pill">Pill Button</button></li>
 </ul>
-<h6>Large Alternative</h6>
+
+<h6 id="large-alternative">Large Alternative</h6>
 <ul class="list inline my1">
   <li><button class="btn-ghost btn-lg">Ghost Button</button></li>
   <li><button class="btn-round btn-lg">Rounded Button</button></li>
@@ -86,13 +98,13 @@
 </ul>
 
 <h2 id="forms">Forms</h2>
-<form action="" class="my1">
+<form action="" class="my2">
     <label for="name">Name</label>
     <input type="text" id="name" title="Input your name." placeholder="Your name...">
 
     <div class="grd">
       <div class="row">
-        <div class="col-2 my1">
+        <div class="col-2 my2">
           <label for="category">Select: </label>
           <fieldset>
               <select name="category" id="category" title="Select a category.">
@@ -102,7 +114,7 @@
               </select>
           </fieldset>
         </div>
-        <div class="col-2 my1">
+        <div class="col-2 my2">
           <label for="radio">Radio: </label>
           <fieldset>
               <label for="female">
@@ -115,7 +127,7 @@
               </label>
           </fieldset>
         </div>
-        <div class="col-2 my1">
+        <div class="col-2 my2">
           <label for="checkbox">Checkbox: </label>
           <fieldset>
               <label for="agree">
@@ -128,11 +140,11 @@
     </div>
     <label for="message">Message</label>
     <textarea name="message" id="message" cols="30" rows="10" placeholder="Your message..."></textarea>
-    <input type="submit" class="btn-round my1" value="Submit">
+    <input type="submit" class="btn-round my2" value="Submit">
 </form>
 
 <h2 id="grid">Grid</h2>
-<div class="grd demo my1">
+<div class="grd demo my2">
     <div class="row">
         <div class="col-1">
             <div class="box">.col-1</div>
@@ -177,20 +189,18 @@
 
 <h2 id="media">Media</h2>
 <div class="media">
-    <div class="media-figure">
-        <img src="http://fillmurray.com/100/100" alt="Media Figure">
+    <div class="media-figure bg-green">
     </div>
     <div class="media-body">
-        <h6 class="m0">Hello World</h6>
+        <h6 class="m0">Marty McFly</h6>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat tempora ipsam eos sunt dolore, dolor laudantium blanditiis veritatis ut distinctio temporibus voluptates magnam, minima. Obcaecati voluptate deleniti earum quis minima!</p>
     </div>
 </div>
 <div class="media">
-    <div class="media-figure">
-        <img src="http://fillmurray.com/100/100" alt="Media Figure">
+    <div class="media-figure bg-blue">
     </div>
     <div class="media-body">
-        <h6 class="m0">Hello World</h6>
+        <h6 class="m0">Dr. Emmett Brown</h6>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat tempora ipsam eos sunt dolore, dolor laudantium blanditiis veritatis ut distinctio temporibus voluptates magnam, minima. Obcaecati voluptate deleniti earum quis minima!</p>
     </div>
 </div>
@@ -239,7 +249,7 @@
 		</main>
 
 		<footer id="footer" class="measure">
-			<p><span class="logo small">Cinch</span> <span class="accent">v0.1.0</span></p>
+			<p><span class="title small">Cinch</span> <span class="accent">v0.1.0</span></p>
 		</footer>
 
 	</body>

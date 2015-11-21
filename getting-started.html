@@ -15,47 +15,58 @@
         <script src="//use.typekit.net/xos4uyv.js"></script>
         <script>try{Typekit.load();}catch(e){}</script>
 
-        <!-- HTML5 Element Fix -->
-        <!--[if lt IE 9]>
-            <script>
-                document.createElement('header');
-                document.createElement('nav');
-                document.createElement('section');
-                document.createElement('article');
-                document.createElement('aside');
-                document.createElement('footer');
-            </script>
-        <![endif]-->
+        <!-- Google Analytics -->
+        <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+            ga('create', 'UA-70468101-1', 'auto');
+            ga('send', 'pageview');
+        </script>
     </head>
 
     <body>
 
         <header id="header" class="measure">
-            <h1 class="logo">Cinch<span class="accent">.</span></h1>
-            <p>A simple, pure, and efficient CSS micro-framework.</p>
+            <div id="header-title">
+                <h1 class="title">
+                    <a href="/">Cinch<span class="accent">.</span></a>
+                </h1>
+                <p>A simple, pure, and efficient CSS micro-framework.</p>
+            </div>
+            <div id="header-nav">
+                <ul class="nav">
+                        <li><a href="&#x2F;">Home</a></li>
+                        <li><a href="&#x2F;getting-started">Getting Started</a></li>
+                        <li><a href="https:&#x2F;&#x2F;github.com&#x2F;travm&#x2F;cinch">Github</a></li>
+                </ul>
+            </div>
         </header>
 
 		<main id="core" class="measure" role="main">
 			
 			<h2 id="getting-started">Getting Started</h2>
-<p>Cinch is a CSS micro-framework designed to get your project <em>started</em> on the right track. As your project matures, your CSS should grow and adapt to your projects needs. Cinch is not a library of CSS classes, it is a solid foundation intended to grow with your project and keep it organized, clean, and efficient.</p>
 <div class="grd">
     <div class="row">
-        <div class="col col-3 is-px2">
-            <h3>Boilerplate</h3>
-            <p>The boilerplate is the unminfied &amp; unprocessed source that is used as a base for your next project. Get up and running quickly, and add your own style along the way.</p>
-            <a class="btn-round" href="#">Download Boilerplate</a>
+        <div class="col-4">
+            <p>
+                Cinch is a CSS micro-framework designed to get your project <em>started</em> on the right track. As your project matures, your CSS should grow and adapt to your project&#39;s needs. Cinch is not a library of CSS classes, it is a solid foundation intended to grow with your project and keep it organized, clean, and efficient.
+            </p>
         </div>
-        <div class="col col-3">
-            <h3>Library</h3>
-            <p>While this is not recommended, you can also use Cinch like a more traditional framework that you build on top of. This file comes fully minified and pre-processed.</p>
-            <a class="btn-round" href="#">Download Library </a>
+        <div class="col-2">
+            <div class="box text-center">
+                <a href="https://raw.githubusercontent.com/travm/cinch/master/dist/cinch.css" class="btn btn-round" target="_blank">Download Cinch</a>
+                <p class="m0">8.8k Unminified</p>
+            </div>
         </div>
     </div>
 </div>
 
 <h3 id="requirements">Requirements</h3>
-<p>Cinch is built with cutting edge CSS features such as variables and color manipulation that are still being finalized in the official spec. Until they are completed, Cinch requires a pre-processor that can &quot;translate&quot; those features to code that a browser can understand today. The great benefit of writing future spec-compliant code is that as these features are finalized, you will be able to remove the processor altogether and your code can be read natively in the browser instead.</p>
+<p>Cinch is built with cutting edge CSS features such as variables and color manipulation that are still being finalized in the official spec. Until they are completed, Cinch requires a pre-processor that can &quot;translate&quot; those features to code that a browser can understand today.</p>
+<p>The great benefit of writing future-friendly, spec-compliant code is that as these features are finalized, you will be able to remove the processor altogether and your code can be read natively in the browser instead.</p>
 <p>We recommend <a href="http://myth.io">Myth</a> to handle your pre-processing and we&#39;ll show you how to get everything up and running.</p>
 <h4 id="installing-myth">Installing Myth</h4>
 <pre><code class="lang-bash">npm install -g myth
@@ -64,12 +75,12 @@
 <p>If you are familiar with similar pre-processors such as Sass or Less, then you&#39;ll have no trouble with Myth. Here are some basic examples of how you can get started using Myth.</p>
 <pre><code class="lang-bash">myth input.css output.css -c -w
 </code></pre>
-<p>This code specifies the input and output files, and additionally instructs Myth to compress the output and watch for any future changes to our input.</p>
+<p>This code specifies the input and output files, and additionally instructs Myth to compress the output and watch for any future changes. Keeping it running and listening for changes will keep you from having to run the same command every time you make a change. To get the process to stop, press <code>Ctrl + C</code>.</p>
 
 		</main>
 
 		<footer id="footer" class="measure">
-			<p><span class="logo small">Cinch</span> <span class="accent">v0.1.0</span></p>
+			<p><span class="title small">Cinch</span> <span class="accent">v0.1.0</span></p>
 		</footer>
 
 	</body>
