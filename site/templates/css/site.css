@@ -319,6 +319,7 @@ hr {
   width: 100%;
   font-size: .75em;
   font-weight: 400;
+  line-height: 1;
   margin: 0 0 1em 0;
   text-decoration: none;
   text-transform: uppercase;
@@ -648,7 +649,7 @@ hr {
 
 /*****************/
 
-@media screen and (min-width:650px) {
+@media screen and (min-width:800px) {
   /********/
 
   /* BASE */
@@ -815,6 +816,10 @@ p > a {
   margin: 0;
 }
 
+.title > a {
+  text-decoration: none;
+}
+
 .title.small {
   font-size: 1.5em;
 }
@@ -847,13 +852,17 @@ p > a {
   margin: 0;
 }
 
+.nav > li > a {
+  text-decoration: none;
+}
+
 /*****************/
 
 /* MEDIA QUERIES */
 
 /*****************/
 
-@media screen and (min-width:600px) {
+@media screen and (min-width:850px) {
   /* Header */
 
   #header-title {

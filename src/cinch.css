@@ -169,6 +169,7 @@
         width:100%;
         font-size:.75em;
         font-weight:400;
+        line-height:1;
         margin:0 0 1em 0;
         text-decoration:none;
         text-transform:uppercase;
@@ -304,7 +305,7 @@
 /* MEDIA QUERIES */
 /*****************/
 
-@media screen and (min-width:650px) {
+@media screen and (min-width:800px) {
 
     /********/
     /* BASE */
