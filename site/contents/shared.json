@@ -2,11 +2,11 @@
     "navigation": [
         {
             "text": "Home",
-            "link": "/"
+            "link": "index"
         },
         {
             "text": "Getting Started",
-            "link": "/getting-started"
+            "link": "getting-started"
         },
         {
             "text": "Github",
