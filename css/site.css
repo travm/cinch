@@ -824,6 +824,12 @@ p > a {
   font-size: 1.5em;
 }
 
+/* Measure */
+
+.measure {
+  max-width: 850px;
+}
+
 /* Media */
 
 .media-figure {
