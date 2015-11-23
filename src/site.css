@@ -59,6 +59,9 @@ p > a {border-bottom:3px solid var(--clrs-orange);}
 .title > a {text-decoration:none;}
 .title.small {font-size:1.5em;}
 
+/* Measure */
+.measure {max-width:850px;}
+
 /* Media */
 .media-figure {width:100px; height:100px; display:block;}
 
