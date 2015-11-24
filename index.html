@@ -98,45 +98,52 @@
 </ul>
 
 <h2 id="forms">Forms</h2>
-<form action="" class="my2">
-    <label for="name">Name</label>
-    <input type="text" id="name" title="Input your name." placeholder="Your name...">
-
+<form action="">
     <div class="grd">
-      <div class="row">
-        <div class="col-2 my2">
-          <label for="category">Select: </label>
-          <fieldset>
-              <select name="category" id="category" title="Select a category.">
-                  <option value="0">Option One</option>
-                  <option value="1">Option Two</option>
-                  <option value="2">Option Three</option>
-              </select>
-          </fieldset>
+        <div class="row">
+            <div class="col-3 my1">
+                <label for="first-name">First Name</label>
+                <input type="text" id="first-name" title="Input your first name." placeholder="Your first name...">
+            </div>
+            <div class="col-3 my1">
+                <label for="last-name">Last Name</label>
+                <input type="text" id="last-name" title="Input your last name." placeholder="Your last name...">
+            </div>
         </div>
-        <div class="col-2 my2">
-          <label for="radio">Radio: </label>
-          <fieldset>
-              <label for="female">
-                <input type="radio" name="gender" id="female" title="Select female.">
-                Female
-              </label>
-              <label for="male">
-                <input type="radio" name="gender" id="male" title="Select male.">
-                Male
-              </label>
-          </fieldset>
+        <div class="row">
+            <div class="col-2 my2">
+              <label for="category">Select: </label>
+              <fieldset>
+                  <select name="category" id="category" title="Select a category.">
+                      <option value="0">Option One</option>
+                      <option value="1">Option Two</option>
+                      <option value="2">Option Three</option>
+                  </select>
+              </fieldset>
+            </div>
+            <div class="col-2 my2">
+              <label for="radio">Radio: </label>
+              <fieldset>
+                  <label for="female">
+                    <input type="radio" name="gender" id="female" title="Select female.">
+                    Female
+                  </label>
+                  <label for="male">
+                    <input type="radio" name="gender" id="male" title="Select male.">
+                    Male
+                  </label>
+              </fieldset>
+            </div>
+            <div class="col-2 my2">
+              <label for="checkbox">Checkbox: </label>
+              <fieldset>
+                  <label for="agree">
+                    <input type="checkbox" id="agree">
+                    Do you agree?
+                  </label>
+              </fieldset>
+            </div>
         </div>
-        <div class="col-2 my2">
-          <label for="checkbox">Checkbox: </label>
-          <fieldset>
-              <label for="agree">
-                <input type="checkbox" id="agree">
-                Do you agree?
-              </label>
-          </fieldset>
-        </div>
-      </div>
     </div>
     <label for="message">Message</label>
     <textarea name="message" id="message" cols="30" rows="10" placeholder="Your message..."></textarea>
@@ -192,7 +199,7 @@
     <div class="media-figure bg-green">
     </div>
     <div class="media-body">
-        <h6 class="m0">Marty McFly</h6>
+        <h6 class="mb1">Marty McFly</h6>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat tempora ipsam eos sunt dolore, dolor laudantium blanditiis veritatis ut distinctio temporibus voluptates magnam, minima. Obcaecati voluptate deleniti earum quis minima!</p>
     </div>
 </div>
@@ -200,7 +207,7 @@
     <div class="media-figure bg-blue">
     </div>
     <div class="media-body">
-        <h6 class="m0">Dr. Emmett Brown</h6>
+        <h6 class="mb1">Dr. Emmett Brown</h6>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat tempora ipsam eos sunt dolore, dolor laudantium blanditiis veritatis ut distinctio temporibus voluptates magnam, minima. Obcaecati voluptate deleniti earum quis minima!</p>
     </div>
 </div>
