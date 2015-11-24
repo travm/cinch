@@ -30,7 +30,7 @@ npm install -g myth
 ```
 
 #### Using Myth
-If you are familiar with similar pre-processors such as Sass or Less, then you'll have no trouble with Myth. Here are some basic examples of how you can get started using Myth.
+If you are familiar with similar pre-processors such as Sass or Less, then you'll have no trouble with Myth. Here is a basic example of how you can get started.
 
 ```bash
 myth input.css output.css -c -w
