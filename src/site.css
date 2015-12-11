@@ -21,8 +21,9 @@ p > a {border-bottom:3px solid var(--clrs-orange);}
 
 /* Header */
 #header {
+    text-align:center;
     margin-bottom:1em;
-    padding:2em 0;
+    padding:4em 0;
     border-bottom:4px solid var(--clrs-orange);
     overflow:hidden;
 }
@@ -55,12 +56,12 @@ p > a {border-bottom:3px solid var(--clrs-orange);}
 .grd.demo > .row > [class*="col-"] {margin:0 0 2em 0;}
 
 /* Title */
-.title {font-size:3em; font-weight:900; margin:0;}
+.title {font-size:5em; font-weight:900; margin:0;}
 .title > a {text-decoration:none;}
 .title.small {font-size:1.5em;}
 
 /* Measure */
-.measure {max-width:850px;}
+.measure {max-width:960px;}
 
 /* Media */
 .media-figure {width:100px; height:100px; display:block;}
@@ -85,6 +86,9 @@ p > a {border-bottom:3px solid var(--clrs-orange);}
 @media screen and (min-width:850px) {
 
     /* Header */
-    #header-title {float:left;}
-    #header-nav {margin:1.25em 0; text-align:right; float:right;}
+    #header-title {}
+    #header-nav {margin:1.25em 0;}
+
+    /* Title */
+    .title {font-size:8em;}
 }
