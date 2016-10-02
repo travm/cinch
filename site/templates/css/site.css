@@ -142,7 +142,7 @@ code {
   color: #FFFFFF;
   background: #111111;
   border-radius: 4px;
-  overflow-x: scroll;
+  overflow-x: auto;
 }
 
 pre {

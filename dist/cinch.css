@@ -91,7 +91,7 @@
         color:var(--clrs-white);
         background:var(--clrs-black);
         border-radius:4px;
-        overflow-x:scroll;
+        overflow-x:auto;
     }
     pre {margin:1.5em 0; padding:1em;}
     code {padding:.15em .25em;}
